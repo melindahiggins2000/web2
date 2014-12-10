@@ -1,5 +1,6 @@
 ---
 title: Blog
+url: https://melindahiggins.github.io/web2/
 layout: page
 ---
 
