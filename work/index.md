@@ -9,46 +9,46 @@ title: Work
 
 <hr/>
 
-<a href="/work/webdata"><img class="centered" src="/images/website/webdata_cover.png"/></a>
+<a href="{{ site.ul }}/work/webdata"><img class="centered" src="{{ site.url }}/images/website/webdata_cover.png"/></a>
 <p>
  Slides for helping you get started with getting data from the Web with R. &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="/work/webdata">Read More</a>
+ <a class="redbutton" href="{{ site.url }}/work/webdata">Read More</a>
 </p>
 <hr/>
 
 
-<a href="/work/pcarevealed"><img class="centered" src="/images/website/pca_cover.png"/></a>
+<a href="{{ site.url }}/work/pcarevealed"><img class="centered" src="{{ site.url }}/images/website/pca_cover.png"/></a>
 <p>
  Slides for helping you get a good grasp of PCA fundamentals. &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="/work/pcarevealed">Read More</a>
+ <a class="redbutton" href="{{ site.url }}/work/pcarevealed">Read More</a>
 </p>
 <hr/>
 
 
-<a href="/Handling_and_Processing_Strings_in_R.pdf"><img class="centered" src="/images/website/strings_book_cover.png"/></a>
+<a href="{{ site.url }}/Handling_and_Processing_Strings_in_R.pdf"><img class="centered" src="{{ site.url }}/images/website/strings_book_cover.png"/></a>
 <p>
  This book aims to help you get started with manipulating strings in R. It provides an 
  overview of several resources for string manipulation, general topics, 
  common operations, and other tricks. &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="/Handling_and_Processing_Strings_in_R.pdf">Download</a>
+ <a class="redbutton" href="{{ site.url }}/Handling_and_Processing_Strings_in_R.pdf">Download</a>
 </p>
 <hr/>
 
 
-<a href="/PLS_Path_Modeling_with_R.pdf">
-<img class="centered" src="/images/website/plspm_book_cover.png"/></a>
+<a href="{{ site.url }}/PLS_Path_Modeling_with_R.pdf">
+<img class="centered" src="{{ site.url }}/images/website/plspm_book_cover.png"/></a>
 <p>
  This book provides a hands-on introduction to Partial Least Squares Path Modeling (PLS-PM) 
  using the R package <code>"plspm"</code>. &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="/PLS_Path_Modeling_with_R.pdf">Download</a>
+ <a class="redbutton" href="{{ site.url }}/PLS_Path_Modeling_with_R.pdf">Download</a>
 </p>
 <hr/>
 
@@ -59,7 +59,7 @@ title: Work
  reflects my opinionated interpretation of how I understand the PLS universe. &nbsp;&nbsp;
 </p>
 <a href="http://www.plsmodeling.com/">
-<img class="centered" src="/images/website/plsmodeling.png"/></a>
+<img class="centered" src="{{ site.url }}/images/website/plsmodeling.png"/></a>
 <hr>
 
 
@@ -69,7 +69,7 @@ title: Work
  project of Philipp Steinweber and Andreas Koller, I spent some time to produce 
  <a href="starwars">my own version</a> of an arc diagram... based on the Star Wars movie scripts.
 </p>
-<a href="starwars"><img class="centered" src="/images/website/starwars_arcdiagram.png"/></a>
+<a href="starwars"><img class="centered" src="{{ site.url }}/images/website/starwars_arcdiagram.png"/></a>
 <hr>
 
 
@@ -80,13 +80,13 @@ title: Work
  might help you to get some inspiration and try your own analysis. 
 </p>
 <a href="https://sites.google.com/site/miningtwitter/" target="_blank">
-<img class="centered" src="/images/website/twitter_mining.png"/></a>
+<img class="centered" src="{{ site.url }}/images/website/twitter_mining.png"/></a>
 <hr>
 
 
 <h2>R-tist</h2>
 <p>
- Some of <a href="/work/rtist">my weird</a> and abstract plots in R
+ Some of <a href="{{ site.url }}/work/rtist">my weird</a> and abstract plots in R
 </p>
-<a href="/work/rtist/"><img src="/images/rtist/green_bolts.png"/></a>
+<a href="{{ site.url }}/work/rtist/"><img src="{{ site.url }}/images/rtist/green_bolts.png"/></a>
 
