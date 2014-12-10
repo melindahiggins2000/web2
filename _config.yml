@@ -1,5 +1,5 @@
-author: Gaston Sanchez
-description: My personal website and blog about data analysis, applied statistics, R
+author: Melinda Higgins, Ph.D.
+description: My website and blog
 highlighter: pygments
 permalink: /blog/:categories/:year/:month/:day/:title.html
 url: https://melindahiggins2000.github.io/web2/
