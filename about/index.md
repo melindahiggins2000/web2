@@ -5,105 +5,69 @@ layout: page
 
 # About Me
 
-#### I'm an applied statistician who loves to analyze data, visualize it and develop computational tools for doing so.
+#### I'm a Biostatistician and Chemometrician - add more info here ...
 
 
-<a class="graybutton" href="https://docs.google.com/presentation/d/1SgaTJpjoL4YCklgB_CMgaQldoxv8rIJFvuTPilDPKGs/pub?start=false&loop=false&delayms=3000" target="_blank">intro</a>
+<a class="graybutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="/about/GastonSanchez_resumecode.pdf">resume</a>
+<a class="graybutton" href="https://melindahiggins2000.github.io/sasuniv2/">SAS Univ</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="http://www.linkedin.com/in/sanchezgaston" target="_blank">linkedin</a>
+<a class="graybutton" href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="https://github.com/gastonstat" target="_blank">github</a>
+<a class="graybutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
 
 <hr/>
 
 
 ## Summary
 
-In the last 9+ years I've been spending my time working on a number of projects, 
-most of them with the central theme of exploring, analyzing and visualizing data 
-in a context of multiple variables and high dimensionality. 
-
-This means that I've been revisiting the core concepts behind methods for 
-association-relationship between multiple sets of variables (i.e. multiblock data) 
-using different approaches from a broad range of disciplines (e.g. psychometrics, 
-chemometrics, sensometrics, econometrics, ecology and biometrics).
-
-In particular, I've done a lot of programming and development of software for statistical 
-computations, graphics, and data analysis. Behind all the stuff that I’ve done there is a single idea and goal: 
-**to build a succinct summary of the data I'm analyzing**.
+In the last XX years I have been ......
 
 
 ## Overall Interests
 
-There are 3 major topics that I'm hooked to:
- 
-- I really like [working](/work) with analytical tools 
-and methods, especially those designed for very practical applications.
-- I'm fascinated with the use of graphical displays to understand data with 
-visualization.
-- I'm a passionate R user as well as a 
-[developer](/software) of statistical software in R.
+My interesting include ......
+
+
 
 
 ## Blog
 
-Occasionally, I like to talk about data analysis, visualization, statistics, R and 
-related stuff in my blog [Data Analysis Visually EnfoRced](/blog).
+My initial blog located at <a href="https://melindahiggins2000.github.io/blog/"> Github Blog </a>
 
 
 ## Trifecta
 
-What I like about my "job" is that:
+What I like about my "job" is ......
 
-1. It can be applied to practically all sciences and disciplines;
-2. Consequently, it has allowed me to open the doors of many different fields;
-3. But most important, it has given me the fortune to work with very smart and talented 
-people from all over the world (from whom I've learned so much).
+
 
 
 ## Contact
 
-The easiest way to get in touch with me is by email. Feel free to drop me a line 
-if you're interested in:
-
-- Training Workshops
-- Consulting
-- Seminars
-- Joint Research
-
-```gaston.stat at gmail.com```
+Melinda Higgins, Ph.D.
+Emory University
+School of Nursing - Office of Research
+<a href="mailto:melinda.higgins@emory.edu">melinda.higgins@emory.edu</a>
+404-727-5180
 
 
-
-## Wishlist
-
-This site remains ad-free and its content takes hundreds of hours a month to research and write. 
-If you find any joy and value in it, please consider supporting me. You can help me get 
-useful resources from my <a href="http://amzn.com/w/A8P707HJ94QI" target="_blank">wishlist</a>.
 
 <hr>
 
 # About this website
 
-This website is my personal space where I try to declutter my ideas and put my 
-projects in order. This is easier said than done.
-  
-- It only happens after many iterations and refinements
-- During days and nights in front of a computer
-- Fueled by dozens of cups of coffee and tea
-- Sometimes listening to music, sometimes in silence
+This website is ............
 
 <p>
-<img class="centered" src="http://farm4.staticflickr.com/3765/11406802826_77d023acc1_o.jpg" alt="colophon"/> 
+<img class="centered" src="https://melindahiggins2000.github.io/web2//images/website/trees.jpg" alt="colophon"/> 
 </p>
 
 ## Colophon
 
 I design and develop this site using [Jekyll](https://github.com/mojombo/jekyll), following 
 this [styleguide](/styleguide). 
-Hosting by [github pages](https://pages.github.com). Source available on 
+Hosting by [github pages](https://pages.github.com). Site Source based on site developed by Gaston Sanchez - available on 
 [github](https://github.com/gastonstat/gastonstat.github.io). 
 
 
