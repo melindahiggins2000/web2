@@ -10,7 +10,7 @@ title: Work
 
 <hr/>
 
-<a href="{{ site.ul }}/work/webdata"><img class="centered" src="{{ site.url }}/images/website/webdata_cover.png"/></a>
+<a href="{{ site.url }}/work/webdata"><img class="centered" src="{{ site.url }}/images/website/webdata_cover.png"/></a>
 <p>
  Slides for helping you get started with getting data from the Web with R. &nbsp;&nbsp;
 </p>
