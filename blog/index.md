@@ -13,11 +13,11 @@ layout: page
 	    <h5>{{ post.date | date: "%B %d, %Y" }}</h5>
 	    {% if post.image %}
 	    <p>
-	    	<a href="{{ post.url }}"><img class="centered" src="{{ site.url }}/images/blog/{{post.image}}" alt=""></a>
+	    	<a href="{{ site.url }}{{ post.url }}"><img class="centered" src="{{ site.url }}/images/blog/{{post.image}}" alt=""></a>
     	</p>
     	{% endif %}
         <p>{{ post.excerpt }} </p>
-        <p>	<a class="graybutton" href="{{ post.url }}">Continue reading</a></p>
+        <p>	<a class="graybutton" href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
         <br/>
         <hr/>
     {% endfor %}
