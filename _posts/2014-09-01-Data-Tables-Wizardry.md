@@ -14,7 +14,7 @@ to improve your *data wizardry* skills.
 
 <!--more-->
 
-![](/images/blog/datawizardry1.png)
+![]({{ site.url }}/images/blog/datawizardry1.png)
 
 <hr/>
 
@@ -24,7 +24,7 @@ to improve your *data wizardry* skills.
 This summer has been one of the busiest summers I've ever had. Among many other projects 
 and commitments, I had the pleasure to give a workshop about Manipulating Data Tables with R.
 
-![](/images/blog/datawizardry2.png)
+![]({{ site.url }}/images/blog/datawizardry2.png)
 
 
 It's hard to know in advance whether people will be engaged when giving a talk, or a course 
@@ -40,7 +40,7 @@ almost over and students are getting ready to go back to school. For those *pada
 pursuing a career with a heavy analytics component, I'm convinced that these slides 
 will help them build some of the required skills to crunch data in R.
 
-![](/images/blog/datawizardry3.png)
+![]({{ site.url }}/images/blog/datawizardry3.png)
 
 
 <hr/>
