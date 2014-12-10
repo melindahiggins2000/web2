@@ -9,7 +9,7 @@ layout: page
 <div id="posts">
 
     {% for post in site.posts offset: 0 limit: 10 %}
-    	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    	<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
 	    <h5>{{ post.date | date: "%B %d, %Y" }}</h5>
 	    {% if post.image %}
 	    <p>
