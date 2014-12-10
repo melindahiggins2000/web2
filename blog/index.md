@@ -13,7 +13,7 @@ layout: page
 	    <h5>{{ post.date | date: "%B %d, %Y" }}</h5>
 	    {% if post.image %}
 	    <p>
-	    	<a href="{{ post.url }}"><img class="centered" src="/images/blog/{{post.image}}" alt=""></a>
+	    	<a href="{{ post.url }}"><img class="centered" src="{{ site.url }}/images/blog/{{post.image}}" alt=""></a>
     	</p>
     	{% endif %}
         <p>{{ post.excerpt }} </p>
@@ -23,7 +23,7 @@ layout: page
     {% endfor %}
 
 	<p>
-	<a class="greenbutton" href="/blog/archive/" title="an archive of all posts">See all posts &rarr;</a>
+	<a class="greenbutton" href="{{ site.url }}/blog/archive/" title="an archive of all posts">See all posts &rarr;</a>
 	</p>
 	
 </div>
