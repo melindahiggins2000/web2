@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Data Tables Wizardry"
+url: https://melindahiggins2000.github.io/web2/
 date: 2014-09-01
 category: resources
 tags: [data]
