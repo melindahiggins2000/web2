@@ -20,7 +20,7 @@ title: Work
  Website with helpful details on getting SAS University up and running (FREE SAS). &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="https://melindahiggins2000.github.io/sasuniv2/"> SAS University Set-up </a>
+ <a class="purplebutton" href="https://melindahiggins2000.github.io/sasuniv2/"> SAS University Set-up </a>
 </p>
 <hr/>
 
