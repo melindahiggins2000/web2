@@ -245,6 +245,24 @@ a:hover {
   transition: 0.2s ease-in;
 }
 
+.purplebutton { 
+  background: #875bab; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+  padding: 5px 10px 5px 10px; 
+  color: white; 
+  text-decoration: none; 
+} 
+
+.purplebutton:hover { 
+  background: #5baba6; 
+  transition: 0.3s ease-in;
+  color: white; 
+  text-decoration: none; 
+} 
+
+
 .redbutton { 
   background: #f74a52; 
   -moz-border-radius: 5px; 
