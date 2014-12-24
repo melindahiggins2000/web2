@@ -4,9 +4,27 @@ url: https://melindahiggins2000.github.io/web2/
 layout: page
 ---
 
-# some basic heading for my blog
+# Data Analysis Visually EnfoRced
 
-<p> next add in the div id posts to track the posts as they come in </p>
+<div id="posts">
 
+    {% for post in site.posts offset: 0 limit: 10 %}
+    	<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+	    <h5>{{ post.date | date: "%B %d, %Y" }}</h5>
+	    {% if post.image %}
+	    <p>
+	    	<a href="{{ site.url }}{{ post.url }}"><img class="centered" src="{{ site.url }}/images/blog/{{post.image}}" alt=""></a>
+    	</p>
+    	{% endif %}
+        <p>{{ post.excerpt }} </p>
+        <p>	<a class="graybutton" href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+        <br/>
+        <hr/>
+    {% endfor %}
 
+	<p>
+	<a class="greenbutton" href="{{ site.url }}/blog/archive/" title="an archive of all posts">See all posts &rarr;</a>
+	</p>
+	
+</div>
 
