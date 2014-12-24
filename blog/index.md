@@ -4,7 +4,7 @@ url: https://melindahiggins2000.github.io/web2/
 layout: page
 ---
 
-# Data Analysis Visually EnfoRced
+# Data Analysis Made Fun and Visually Meaningful and Reproducible
 
 <div id="posts">
 
