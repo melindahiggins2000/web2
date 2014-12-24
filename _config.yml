@@ -2,7 +2,7 @@ author: Melinda Higgins, Ph.D.
 description: My website and blog
 highlighter: pygments
 permalink: /blog/:categories/:year/:month/:day/:title.html
-url: https://melindahiggins2000.github.io/web2/
+url: https://melindahiggins2000.github.io/web2
 markdown: redcarpet
 exclude: ["Rmd", ".DS_Store", "README.md"]
 excerpt_separator: <!--more-->
