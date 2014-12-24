@@ -25,8 +25,8 @@ In order to submit data requests to Twitter, you need a developer account. Go to
 
 ## Learn more at the Credera Blog
 
-* go to at http://blog.credera.com/business-intelligence/twitter-analytics-using-r-part-1-extract-tweets/ 
-* see more posts at http://blog.credera.com/?s=twitter 
+* go to at <http://blog.credera.com/business-intelligence/twitter-analytics-using-r-part-1-extract-tweets/> 
+* see more posts at <http://blog.credera.com/?s=twitter> 
 
 ***
 
@@ -54,7 +54,7 @@ For Windows' users you need to get the cacert.pem file. This gets stored in your
 
 ### Some Important Notes
 
-IMPORTANT NOTE - at my twitter developer site I had to update the permissions for the app to be read, write and direct messages see https://apps.twitter.com/app/7358826  then the steps below worked - with just read permissions I kept getting "Authorization Required" error...
+IMPORTANT NOTE - at my twitter developer site I had to update the permissions for the app to be read, write and direct messages see <https://apps.twitter.com/app/7358826>  then the steps below worked - with just read permissions I kept getting "Authorization Required" error...
 
 
 {% highlight r %}
