@@ -1,10 +1,15 @@
 ---
 layout : post
 title : Using R to Datamine Twitter - Intro
-category:  R
-tags :
-  - R
+date : 2014-12-08
+category:  R codes
+tags : [R codes]
+image: wordcloud_nursing_sm.png
 ---
+
+This post describes how to set-up a developer account with Twitter; create a Twitter application to generate a key and token for your API; write R code to use this API to pull tweets from Twitter on a given key word or words;  parse the tweets; and then create a word cloud to illustrate a data mining visualization graphic.
+
+<!--more-->
 
 ## First - set-up a developer account with Twitter
 
