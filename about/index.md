@@ -82,7 +82,7 @@ I designed and developed this site using:
  
 This site is hosted by [github pages](https://pages.github.com) and version controlled via [Github for Windows client](https://windows.github.com/). 
 
-Site Source is available on [github](https://github.com/gastonstat/gastonstat.github.io). 
+Original Site Source available by [Gaston Sanchez at github](https://github.com/gastonstat/gastonstat.github.io) and you can fork my site at [Melinda Higgins at github](https://github.com/melindahiggins2000/web2). 
 
 Unless specified otherwise, content on this site is licensed under a 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
