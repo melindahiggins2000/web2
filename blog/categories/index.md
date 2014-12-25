@@ -3,7 +3,7 @@ title: Categories
 layout: page
 ---
 
-# Data Analysis Visually EnfoRced
+# Analysis: Fun, Meaningful, Reproducible
 
 ### Categories
 
