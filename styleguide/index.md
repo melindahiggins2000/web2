@@ -121,14 +121,14 @@ form of filtering</blockquote>
 
 <div id="block">
 	<div class="wide-image">
-		<img class="full" src="/images/website/fullwidth_arcdiagram.png" alt="full-wide" />
+		<img class="full" src="{{ site.url }}/images/website/sky01.png" alt="full-wide" />
 	</div>
 	<div class="prose">
 		<p><code>centered</code> images occupy just a partial space of the screen width. 
 		They are used to show a visual element like a photo, screenshot, chart, or plot.
 		</p>
 		<p>
-		<img class="centered" src="/images/website/fullwidth_arcdiagram.png" alt="centered" />
+		<img class="centered" src="{{ site.url }}/images/website/sky01.png" alt="centered" />
 		</p>
 	</div>
 </div>
@@ -138,9 +138,9 @@ form of filtering</blockquote>
 	<div class="prose"> 
 		<h2>PLS Path Modeling with R</h2>
 		<p>
-		This book provides a hands-on introduction to Partial Least Squares Path Modeling (PLS-PM) 
+		This book by Gaston Sanchez provides a hands-on introduction to Partial Least Squares Path Modeling (PLS-PM) 
 		using the R package <code>"plspm"</code>. &nbsp;&nbsp;
-		<p><a class="button" href="/PLS_Path_Modeling_with_R.pdf">Download</a></p>
+		<p><a class="button" href="http://gastonsanchez.com/PLS_Path_Modeling_with_R.pdf">Download</a></p>
 		</p>
 	</div>
 </div>
@@ -150,15 +150,15 @@ form of filtering</blockquote>
 <div id="block">
 	<div class="column1of3"> 
 		<p>Columna 1</p>
-		<img src="/images/colwise_groups.png" />
+		<img src="{{ site.url }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
 	</div>
 	<div class="column2of3"> 
 		<p>Columna 2</p>
-		<img src="/images/colwise_groups.png" />
+		<img src="{{ site.url }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
 	</div>
 	<div class="column3of3"> 
 		<p>Columna 3</p>
-		<img src="/images/colwise_groups.png" />
+		<img src="{{ site.url }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
 	</div>
 </div>
 
