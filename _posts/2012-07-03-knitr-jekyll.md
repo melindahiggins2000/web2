@@ -7,7 +7,7 @@ tags : [R]
 image : fish01.jpg
 ---
 
-An initial example using `knitpost` R script, see [post by JFisher](http://jfisher-usgs.github.io/r/2012/07/03/knitr-jekyll/), for quickly converting R-markdown (*.rmd) into markdown (*.md) with the associated images and such...
+An initial example using `knitpost` R script, see [post by JFisher](http://jfisher-usgs.github.io/r/2012/07/03/knitr-jekyll/), for quickly converting R-markdown `(*.rmd)` into markdown `(*.md)` with the associated images and such...
 
 <!--more-->
 
