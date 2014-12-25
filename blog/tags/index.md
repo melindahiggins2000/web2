@@ -3,7 +3,7 @@ title: Tags
 layout: page
 ---
 
-# Data Analysis Visually EnfoRced
+# Analysis: Fun, Meaningful, Reproducible
 
 ### Tags
 
