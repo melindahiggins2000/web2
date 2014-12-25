@@ -47,6 +47,8 @@ What I like about my "job" is ......
 
 > Melinda Higgins, Ph.D.
 
+> Associate Professor Research; Senior Biostatistician
+
 > Emory University
 
 > School of Nursing - Office of Research
