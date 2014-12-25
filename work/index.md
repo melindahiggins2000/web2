@@ -10,7 +10,7 @@ title: Work
 
 <hr/>
 
-<a href="{{ site.url }}/work/lectureseries"><img class="centered" src="{{ site.url }}/images/website/sky01.png"/></a>
+<a href="{{ site.url }}/work/lectureseries"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
 <p>
  example of a set of slides from a lecture series. &nbsp;&nbsp;
 </p>
