@@ -4,7 +4,7 @@ title : My website launched
 date : 2014-11-23
 category : Website
 tags : [Website]
-image : arches01.jpg
+image : koi01.jpg
 ---
 
 I just completed the setup of my [Github website](https://melindahiggins2000.github.io) and a Project Site on [SAS University](http://melindahiggins2000.github.io/sasuniv2). 
