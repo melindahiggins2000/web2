@@ -72,6 +72,7 @@ This website is ............
 ## Colophon
 
 I designed and developed this site using: 
+
 * [Jekyll](https://github.com/mojombo/jekyll); 
 * [RStudio](http://www.rstudio.com);
 * [R](http://cran.r-project.org/); 
