@@ -10,12 +10,12 @@ title: Work
 
 <hr/>
 
-<a href="{{ site.url }}/work/webdata"><img class="centered" src="{{ site.url }}/images/website/webdata_cover.png"/></a>
+<a href="{{ site.url }}/work/lectureseries"><img class="centered" src="{{ site.url }}/images/website/sky01.png"/></a>
 <p>
- Slides for helping you get started with getting data from the Web with R. &nbsp;&nbsp;
+ example of a set of slides from a lecture series. &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="{{ site.url }}/work/webdata">Read More</a>
+ <a class="redbutton" href="{{ site.url }}/work/lectureseries">Read More</a>
 </p>
 <hr/>
 
