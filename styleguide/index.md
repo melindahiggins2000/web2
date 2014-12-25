@@ -121,14 +121,14 @@ form of filtering</blockquote>
 
 <div id="block">
 	<div class="wide-image">
-		<img class="full" src="{{ site.url }}/images/website/sky01.png" alt="full-wide" />
+		<img class="full" src="{{ site.url }}/images/website/sky01.jpg" alt="full-wide" />
 	</div>
 	<div class="prose">
 		<p><code>centered</code> images occupy just a partial space of the screen width. 
 		They are used to show a visual element like a photo, screenshot, chart, or plot.
 		</p>
 		<p>
-		<img class="centered" src="{{ site.url }}/images/website/sky01.png" alt="centered" />
+		<img class="centered" src="{{ site.url }}/images/website/sky01.jpg" alt="centered" />
 		</p>
 	</div>
 </div>
