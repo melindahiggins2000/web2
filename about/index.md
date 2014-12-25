@@ -76,14 +76,13 @@ I designed and developed this site using:
 * [Jekyll](https://github.com/mojombo/jekyll); 
 * [RStudio](http://www.rstudio.com);
 * [R](http://cran.r-project.org/); 
-* using the `knitr` [R package](http://cran.r-project.org/web/packages/knitr/index.html);
+* with the `knitr` [R package](http://cran.r-project.org/web/packages/knitr/index.html);
 * following reproducible research principles by [Yihui Xie](http://yihui.name/) and [Christopher Gandrud](http://christophergandrud.github.io/RepResR-RStudio/);
-* following this [styleguide]({{ site.url }}/styleguide). 
+* following this [styleguide]({{ site.url }}/styleguide) developed by [Gaston Sanchez](http://gastonsanchez.com/). 
  
 This site is hosted by [github pages](https://pages.github.com) and version controlled via [Github for Windows client](https://windows.github.com/). 
 
-Site Source is based on a site developed by Gaston Sanchez - available on 
-[github](https://github.com/gastonstat/gastonstat.github.io). 
+Site Source is available on [github](https://github.com/gastonstat/gastonstat.github.io). 
 
 Unless specified otherwise, content on this site is licensed under a 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
