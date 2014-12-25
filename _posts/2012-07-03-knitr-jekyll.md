@@ -1,10 +1,15 @@
 ---
 layout : post
 title : Test R Markdown file - converted
+date : 2014-07-03
 category : R
-tags :
-  - R
+tags : [R]
+image : fish01.jpg
 ---
+
+An initial example using `knitpost` R script, see [post by JFisher](http://jfisher-usgs.github.io/r/2012/07/03/knitr-jekyll/), for quickly converting R-markdown (*.rmd) into markdown (*.md) with the associated images and such...
+
+<!--more-->
 
 ## based on KnitPost
 
