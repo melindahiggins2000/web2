@@ -53,17 +53,17 @@ You will need to install the following packages in R: `twitteR` and `ROAuth` for
 {% highlight r %}
 # First install the packages
 
-install.packages("twitteR")
-install.packages("ROAuth")
-install.packages("tm")
-install.packages("wordcloud")
+  install.packages("twitteR")
+  install.packages("ROAuth")
+  install.packages("tm")
+  install.packages("wordcloud")
 
 # Next load the packages
 
-library("twitteR")
-library("ROAuth")
-library("tm")
-library("wordcloud")
+  library("twitteR")
+  library("ROAuth")
+  library("tm")
+  library("wordcloud")
 {% endhighlight %}
 
 ***
@@ -72,65 +72,62 @@ library("wordcloud")
 
 For Windows users you need to get the `cacert.pem` file. This gets stored in your local directory so be sure that your working directory is set how you want it. Run `getwd()` to check what R thinks is your current working directory. Use `setwd(c:/xxxx/xxxx)` to set the path to what you want.
 
-### Some Important Notes
+### IMPORTANT NOTE
 
-IMPORTANT NOTE - at my twitter developer site I had to update the permissions for the app to `read, write and direct messages` instead of just `read` permissions which was my default. See your application settings at something like https://apps.twitter.com/app/xxxxxxx for your specific Twitter developer account.  When I only had `read` permissions I kept getting "Authorization Required" error like below ...
+At my Twitter developer site I had to update the permissions for the app to `read, write and direct messages` instead of just `read` permissions which was my default. See your application settings at something like https://apps.twitter.com/app/xxxxxxx for your specific Twitter developer account to update your settings.  When I only had `read` permissions I kept getting "Authorization Required" error like below ...
 
 
 {% highlight r %}
-     [1] "Authorization Required"  
-     Error in twInterfaceObj$doAPICall(cmd, params, "GET", ...) : 
-     Error: Authorization Required  
+  [1] "Authorization Required"  
+  Error in twInterfaceObj$doAPICall(cmd, params, "GET", ...) : 
+  Error: Authorization Required  
 {% endhighlight %}
 
 Now that you have your Twitter application configured for read, write and direct messages permissions, download the CAcert.
 
-
 {% highlight r %}
-download.file(url="http://curl.haxx.se/ca/cacert.pem",destfile="cacert.pem")
+  download.file(url="http://curl.haxx.se/ca/cacert.pem",destfile="cacert.pem")
 {% endhighlight %}
 
 ***
 
 Next create an object with the authentication details for later sessions. You will need your consumer Key and Secret from your Twitter app to input here.
 
-
-
 {% highlight r %}
 # create an object "cred" that will save the authenticated object that we can use for later sessions
 # input your own consumerKey and Secret below
-cred <- OAuthFactory$new(consumerKey='xxxxxxxxxxxxxxxxxxxxxxxxx',
-                         consumerSecret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-                         requestURL='https://api.twitter.com/oauth/request_token',
-                         accessURL='https://api.twitter.com/oauth/access_token',
-                         authURL='https://api.twitter.com/oauth/authorize')
+  cred <- OAuthFactory$new(consumerKey='xxxxxxxxxxxxxxxxxxxxxxxxx',
+    consumerSecret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    requestURL='https://api.twitter.com/oauth/request_token',
+    accessURL='https://api.twitter.com/oauth/access_token',
+    authURL='https://api.twitter.com/oauth/authorize')
 
-# Executing the next step generates an output --> To enable the connection, please direct your web browser to: <hyperlink> . Note:  You only need to do this part once
-cred$handshake(cainfo="cacert.pem")
+# Executing the next step generates an output --> To enable the connection, please direct your web browser to: <hyperlink>. Note:  You only need to do this part once
+  cred$handshake(cainfo="cacert.pem")
 
 #save for later use for Windows
-save(cred, file="twitter_authentication.Rdata")
+
+  save(cred, file="twitter_authentication.Rdata")
 
 # Load "twitter authentication.Rdata" file in your session and then run registerTwitterOAuth. 
 # This should return "TRUE" indicating that all is good and we can proceed. 
 
-load("twitter_authentication.Rdata")
-registerTwitterOAuth(cred)
+  load("twitter_authentication.Rdata")
+  registerTwitterOAuth(cred)
 {% endhighlight %}
 
 ## Next do a search on twitter and parse through the tweets and create a wordcloud
 
 
 {% highlight r %}
-search.string <- "#nursing"
-no.of.tweets <- 1499
-tweets <- searchTwitter(search.string, n=no.of.tweets, cainfo="cacert.pem", lang="en")
+  search.string <- "#nursing"
+  no.of.tweets <- 1499
+  tweets <- searchTwitter(search.string, n=no.of.tweets, cainfo="cacert.pem", lang="en")
 {% endhighlight %}
 
 This may take a few minutes to run depending on the amount of tweets being extracted.
 
 Here are some of the tweets extracted using `head(tweets)` to pull the first few tweets extracted.
-
 
 {% highlight r %}
 [[1]]
@@ -157,44 +154,43 @@ The next set of commands will parse through these tweets and extract the key wor
 
 {% highlight r %}
 # create a function to extract text
-tweets.text <- sapply(tweets, function(x) x$getText())
+  tweets.text <- sapply(tweets, function(x) x$getText())
 
 #convert all text to lower case
-tweets.text <- tolower(tweets.text)
+  tweets.text <- tolower(tweets.text)
 
 # Replace blank space ("rt")
-tweets.text <- gsub("rt", "", tweets.text)
+  tweets.text <- gsub("rt", "", tweets.text)
 
 # Replace @UserName
-tweets.text <- gsub("@\\w+", "", tweets.text)
+  tweets.text <- gsub("@\\w+", "", tweets.text)
 
 # Remove punctuation
-tweets.text <- gsub("[[:punct:]]", "", tweets.text)
+  tweets.text <- gsub("[[:punct:]]", "", tweets.text)
 
 # Remove links
-tweets.text <- gsub("http\\w+", "", tweets.text)
+  tweets.text <- gsub("http\\w+", "", tweets.text)
 
 # Remove tabs
-tweets.text <- gsub("[ |\t]{2,}", "", tweets.text)
+  tweets.text <- gsub("[ |\t]{2,}", "", tweets.text)
 
 # Remove blank spaces at the beginning
-tweets.text <- gsub("^ ", "", tweets.text)
+  tweets.text <- gsub("^ ", "", tweets.text)
 
 # Remove blank spaces at the end
-tweets.text <- gsub(" $", "", tweets.text)
+  tweets.text <- gsub(" $", "", tweets.text)
 
 #create corpus
-tweets.text.corpus <- Corpus(VectorSource(tweets.text))
+  tweets.text.corpus <- Corpus(VectorSource(tweets.text))
 
 #clean up by removing stop words
-tweets.text.corpus <- tm_map(tweets.text.corpus, function(x)removeWords(x,stopwords()))
+  tweets.text.corpus <- tm_map(tweets.text.corpus, function(x)removeWords(x,stopwords()))
 {% endhighlight %}
 
 Here is what the cleaned up text now looks like for the 1st tweet extracted above.
 
-
 {% highlight r %}
-tweets.text.corpus[1]$content
+  tweets.text.corpus[1]$content
 
 [[1]]
 <<PlainTextDocument (metadata: 7)>>
@@ -204,10 +200,9 @@ nursing job  fulleon ca patient care tech oncology ft nights 12hr  st josephs he
 
 Finally, generate the wordcloud for all of the extracted content from these 1499 tweets.
 
-
 {% highlight r %}
 #generate wordcloud
-wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
+  wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
 {% endhighlight %}
 
 ![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing.png)
