@@ -120,9 +120,9 @@ Next create an object with the authentication details for later sessions. You wi
 
 
 {% highlight r %}
-  search.string <- "#nursing"
-  no.of.tweets <- 1499
-  tweets <- searchTwitter(search.string, n=no.of.tweets, cainfo="cacert.pem", lang="en")
+search.string <- "#nursing"
+no.of.tweets <- 1499
+tweets <- searchTwitter(search.string, n=no.of.tweets, cainfo="cacert.pem", lang="en")
 {% endhighlight %}
 
 This may take a few minutes to run depending on the amount of tweets being extracted.
