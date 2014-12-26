@@ -51,6 +51,7 @@ You will need to install the following packages in R: `twitteR` and `ROAuth` for
 
 
 {% highlight r %}
+
 # First install the packages
 
   install.packages("twitteR")
@@ -78,6 +79,7 @@ At my Twitter developer site I had to update the permissions for the app to `rea
 
 
 {% highlight r %}
+
   [1] "Authorization Required"  
   Error in twInterfaceObj$doAPICall(cmd, params, "GET", ...) : 
   Error: Authorization Required  
@@ -86,6 +88,7 @@ At my Twitter developer site I had to update the permissions for the app to `rea
 Now that you have your Twitter application configured for read, write and direct messages permissions, download the CAcert.
 
 {% highlight r %}
+
   download.file(url="http://curl.haxx.se/ca/cacert.pem",destfile="cacert.pem")
 {% endhighlight %}
 
@@ -94,6 +97,7 @@ Now that you have your Twitter application configured for read, write and direct
 Next create an object with the authentication details for later sessions. You will need your consumer Key and Secret from your Twitter app to input here.
 
 {% highlight r %}
+
 # create an object "cred" that will save the authenticated 
 # object that we can use for later sessions
 # input your own consumerKey and Secret below
@@ -124,6 +128,7 @@ Next create an object with the authentication details for later sessions. You wi
 
 
 {% highlight r %}
+
 search.string <- "#nursing"
 no.of.tweets <- 1499
 tweets <- searchTwitter(search.string, n=no.of.tweets, cainfo="cacert.pem", lang="en")
@@ -134,6 +139,7 @@ This may take a few minutes to run depending on the amount of tweets being extra
 Here are some of the tweets extracted using `head(tweets)` to pull the first few tweets extracted.
 
 {% highlight r %}
+
 [[1]]
 [1] "stjoehealthjobs: #Nursing #Job in #FULLERTON, CA: Patient Care Tech, Oncology, FT, Nights, 12hr at St. Joseph's Health http://t.co/gL1puLnlxS"
 
@@ -157,6 +163,7 @@ The next set of commands will parse through these tweets and extract the key wor
 
 
 {% highlight r %}
+
 # create a function to extract text
   tweets.text <- sapply(tweets, function(x) x$getText())
 
@@ -194,7 +201,8 @@ The next set of commands will parse through these tweets and extract the key wor
 Here is what the cleaned up text now looks like for the 1st tweet extracted above.
 
 {% highlight r %}
-  tweets.text.corpus[1]$content
+
+tweets.text.corpus[1]$content
 
 [[1]]
 <<PlainTextDocument (metadata: 7)>>
@@ -205,6 +213,7 @@ nursing job  fulleon ca patient care tech oncology ft nights 12hr  st josephs he
 Finally, generate the wordcloud for all of the extracted content from these 1499 tweets.
 
 {% highlight r %}
+
 #generate wordcloud
 wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
 {% endhighlight %}
