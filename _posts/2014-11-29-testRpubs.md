@@ -13,6 +13,15 @@ image: flower02.jpg
 
 ## Install R and RStudio and Rtools
 
+1. Install R from [CRAN](http://cran.r-project.org/)
+2. It is also helpful to download [RTools](http://cran.r-project.org/bin/windows/Rtools/)
+3. Install [RStudio](http://www.rstudio.com/) which is an Integrated Development Environment (IDE) with a helpful GUI (graphical user interface) layout for your R command line, scripting,  logs, output, help and other useful windows all from the same integrated interface.
+
+### RStudio Interface - screen capture running in Windows 8.1
+
+[!center]({{ site.url }}/images/blog/rstudioMain.png)
+
+
 Add details here on setting everything up
 
 Add screen captures for sending the final file to Rpubs from inside RStudio...
