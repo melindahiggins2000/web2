@@ -50,6 +50,6 @@ By clicking on Publish you are asking to post your final document on Rpubs. For 
 
 ![center]({{ site.url }}/images/blog/rstudioRMDrpubs.png)
 
-If all goes well your document will then be posted to [RPubs Test 1](http://rpubs.com/melindahiggins2000/rpubstest1)   
+If all goes well your document will then be posted to [RPubs](http://rpubs.com/melindahiggins2000/rpubstest1)   
 
 ![center]({{ site.url }}/images/blog/rstudioRMDfinal.png)
