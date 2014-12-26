@@ -19,7 +19,7 @@ image: flower02.jpg
 
 ### RStudio Interface - screen capture running in Windows 8.1
 
-[!center]({{ site.url }}/images/blog/rstudioMain.png)
+![center]({{ site.url }}/images/blog/rstudioMain.png)
 
 
 Add details here on setting everything up
