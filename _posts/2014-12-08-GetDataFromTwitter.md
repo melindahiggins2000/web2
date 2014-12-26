@@ -47,7 +47,7 @@ In order to submit data requests to Twitter, you need a developer account. Go to
 
 ## Packages needed in R
 
-You will need to install the following packages in R: `twitteR` and `ROAuth` for *"talking"* to Twitter. You also need the `tm` and `wordcloud` packages to parse the *tweets* and then create the *wordlcoud* figure. More information on R packages is available at [Quick-R](http://www.statmethods.net/interface/packages.html) and [CRAN](http://cran.r-project.org/web/packages/)
+You will need to install the following packages in R: `twitteR` and `ROAuth` for *"talking"* to Twitter. You also need the `tm` and `wordcloud` packages to parse the *tweets* and then create the *wordcloud* figure. More information on R packages is available at [Quick-R](http://www.statmethods.net/interface/packages.html) and [CRAN](http://cran.r-project.org/web/packages/)
 
 
 {% highlight r %}
