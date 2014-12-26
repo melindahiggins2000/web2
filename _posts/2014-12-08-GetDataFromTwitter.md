@@ -94,7 +94,8 @@ Now that you have your Twitter application configured for read, write and direct
 Next create an object with the authentication details for later sessions. You will need your consumer Key and Secret from your Twitter app to input here.
 
 {% highlight r %}
-# create an object "cred" that will save the authenticated object that we can use for later sessions
+# create an object "cred" that will save the authenticated 
+# object that we can use for later sessions
 # input your own consumerKey and Secret below
   cred <- OAuthFactory$new(consumerKey='xxxxxxxxxxxxxxxxxxxxxxxxx',
     consumerSecret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
@@ -102,16 +103,19 @@ Next create an object with the authentication details for later sessions. You wi
     accessURL='https://api.twitter.com/oauth/access_token',
     authURL='https://api.twitter.com/oauth/authorize')
 
-# Executing the next step generates an output --> To enable the connection, please direct your web browser to: <hyperlink>. Note:  You only need to do this part once
+# Executing the next step generates an output
+# To enable the connection, please direct your web 
+# browser to: <hyperlink>. 
+# Note: You only need to do this part once
   cred$handshake(cainfo="cacert.pem")
 
 #save for later use for Windows
-
   save(cred, file="twitter_authentication.Rdata")
 
-# Load "twitter authentication.Rdata" file in your session and then run registerTwitterOAuth. 
-# This should return "TRUE" indicating that all is good and we can proceed. 
-
+# Load "twitter authentication.Rdata" file in your session 
+# and then run registerTwitterOAuth. 
+# This should return "TRUE" indicating that all is good 
+# and we can proceed. 
   load("twitter_authentication.Rdata")
   registerTwitterOAuth(cred)
 {% endhighlight %}
@@ -202,10 +206,10 @@ Finally, generate the wordcloud for all of the extracted content from these 1499
 
 {% highlight r %}
 #generate wordcloud
-  wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
+wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
 {% endhighlight %}
 
-![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing.png)
+![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing_sm.png)
 
 ***
 
