@@ -19,7 +19,7 @@ In order to submit data requests to Twitter, you need a developer account. Go to
 
 * Click "More"" and "Get Started with Fabric"
 * Fill out your name and email to request an account
-* *Mine took a week to get an approval email*
+* **Mine took a week to get an approval email**
 * Once you get the email invitation, follow the instructions to activate your account.
 * Go to the Twitter Applications manager at https://apps.twitter.com/ 
 * Create a new app - fill out the required fields
