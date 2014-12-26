@@ -21,9 +21,18 @@ image: flower02.jpg
 
 ![center]({{ site.url }}/images/blog/rstudioMain.png)
 
-To begin you first need to create a R-markdown `(*.rmd)` file. From the RStudio menus, choose File/New/R markdown
+To begin you first need to create a R-markdown `(*.rmd)` file. From the RStudio menus, choose File/New File/R markdown.
 
 ![center]({{ site.url }}/images/blog/rstudioRMDnew.png)
+
+For RStudio version 0.98.1091, creating a new RMD file opens another window where you can customize what kind of RMD file you want to create: 
+
+* either a document (in either HTML, DOC or PDF formats); 
+* presentation (as either HTML-ioslides, HTML-Slidy, or PDF-beamer formats); 
+* Shiny document (as HTML document with Shiny interactive components or Shiny presentation as IOSlides with interactive components); or 
+* from a template of your choosing.
+
+![center]({{ site.url }}/images/blog/rstudioRMDinitial.png)
 
 Add screen captures for sending the final file to Rpubs from inside RStudio...
 
