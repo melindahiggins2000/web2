@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Test Post to RPubs
+title : Learn to Post at RPubs
 date: 2014-11-29
 category : Reproducible Research
 tags : [Reproducible Research]
