@@ -8,6 +8,7 @@ image: wordcloud_nursing_sm.png
 ---
 
 This post describes how to:
+
 * set-up a developer account with Twitter; 
 * create a Twitter application to generate a key and token for your API; 
 * write R code to use this API to pull tweets from Twitter on a given key word or words;  
