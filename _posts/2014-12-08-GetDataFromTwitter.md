@@ -47,7 +47,8 @@ In order to submit data requests to Twitter, you need a developer account. Go to
 
 ## Packages needed in R
 
-You will need to install the following packages in R: `twitteR` and `ROAuth` for "talking: to Twitter. You also need the `tm` and `wordcloud` packages to parse the *tweets* and then create the *wordlcoud* figure. More information on R packages is available at [Quick-R](http://www.statmethods.net/interface/packages.html) and [CRAN](http://cran.r-project.org/web/packages/)
+You will need to install the following packages in R: `twitteR` and `ROAuth` for *"talking"* to Twitter. You also need the `tm` and `wordcloud` packages to parse the *tweets* and then create the *wordlcoud* figure. More information on R packages is available at [Quick-R](http://www.statmethods.net/interface/packages.html) and [CRAN](http://cran.r-project.org/web/packages/)
+
 
 {% highlight r %}
 # First install the packages
@@ -69,11 +70,11 @@ library("wordcloud")
 
 ## Get your authenticated credentials (CAcert and cURL)
 
-For Windows' users you need to get the cacert.pem file. This gets stored in your local directory so be sure that your working directory is set how you want it. Run `getwd()` to check what R thinks is your current working directory. Use `setwd(c:/xxxx/xxxx)` to set the path to what you want.
+For Windows users you need to get the `cacert.pem` file. This gets stored in your local directory so be sure that your working directory is set how you want it. Run `getwd()` to check what R thinks is your current working directory. Use `setwd(c:/xxxx/xxxx)` to set the path to what you want.
 
 ### Some Important Notes
 
-IMPORTANT NOTE - at my twitter developer site I had to update the permissions for the app to be read, write and direct messages see your application settings at something like <https://apps.twitter.com/app/xxxxxxx> which you need for your specific account (i.e. you have to be logged into yout Twitter Developer account for this to work) ...  then the steps below worked - with just read permissions I kept getting "Authorization Required" error...
+IMPORTANT NOTE - at my twitter developer site I had to update the permissions for the app to `read, write and direct messages` instead of just `read` permissions which was my default. See your application settings at something like https://apps.twitter.com/app/xxxxxxx for your specific Twitter developer account.  When I only had `read` permissions I kept getting "Authorization Required" error like below ...
 
 
 {% highlight r %}
