@@ -17,12 +17,13 @@ image: flower02.jpg
 2. It is also helpful to download [RTools](http://cran.r-project.org/bin/windows/Rtools/)
 3. Install [RStudio](http://www.rstudio.com/) which is an Integrated Development Environment (IDE) with a helpful GUI (graphical user interface) layout for your R command line, scripting,  logs, output, help and other useful windows all from the same integrated interface.
 
-### RStudio Interface - screen capture running in Windows 8.1
+### RStudio Interface - screen capture (Windows 8.1 on a Surface Pro 3)
 
 ![center]({{ site.url }}/images/blog/rstudioMain.png)
 
+To begin you first need to create a R-markdown `(*.rmd)` file. From the RStudio menus, choose File/New/R markdown
 
-Add details here on setting everything up
+![center]({{ site.url }}/images/blog/rstudioRMDnew.png)
 
 Add screen captures for sending the final file to Rpubs from inside RStudio...
 
