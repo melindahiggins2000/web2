@@ -7,13 +7,18 @@ tags : [R codes]
 image: wordcloud_nursing_sm.png
 ---
 
-This post describes how to set-up a developer account with Twitter; create a Twitter application to generate a key and token for your API; write R code to use this API to pull tweets from Twitter on a given key word or words;  parse the tweets; and then create a word cloud to illustrate a data mining visualization graphic.
+This post describes how to:
+* set-up a developer account with Twitter; 
+* create a Twitter application to generate a key and token for your API; 
+* write R code to use this API to pull tweets from Twitter on a given key word or words;  
+* parse the tweets; and 
+* then create a word cloud to illustrate a data mining visualization graphic.
 
 <!--more-->
 
 ## First - set-up a developer account with Twitter
 
-In order to submit data requests to Twitter, you need a developer account. Go to Twitter Developers <https://dev.twitter.com/>, aka. Fabric.
+In order to submit data requests to Twitter, you need a developer account. Go to [Twitter Developers](https://dev.twitter.com/), aka. Fabric.
 
 ![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png)
 
@@ -30,24 +35,32 @@ In order to submit data requests to Twitter, you need a developer account. Go to
 
 ## Learn more at the Credera Blog
 
-* go to at <http://blog.credera.com/business-intelligence/twitter-analytics-using-r-part-1-extract-tweets/> 
-* see more posts at <http://blog.credera.com/?s=twitter> 
+[Credera](http://www.credera.com/) is a management and technology consulting company. Their [blog](http://blog.credera.com/) has a number of helpful posts covering business and technology insights. My code presented here follows their instructions from a 3-part series on extracting data from Twitter from their technology insights blog.
+
+* See all their posts on Twitter applications at [Credera](http://blog.credera.com/?s=twitter)
+* Credera - Part 1 [Extracting Tweets](http://blog.credera.com/business-intelligence/twitter-analytics-using-r-part-1-extract-tweets/)
+* Credera - Part 2 [Create Word Cloud](http://blog.credera.com/business-intelligence/twitter-analytics-using-r-part-2-create-word-cloud/)
+* Credera - Part 3 [Compare Sentiments](http://blog.credera.com/technology-insights/open-source-technology-insights/twitter-analytics-using-r-part-3-compare-sentiments/)
 
 ***
 
-## Getting started in R
+## Packages needed in R
 
-You will need to install the following packages in R: `twitteR` and `ROAuth` for "talking: to Twitter. You also need the `tm` and `wordcloud` packages to create the wordlcoud figure.
-
+You will need to install the following packages in R: `twitteR` and `ROAuth` for "talking: to Twitter. You also need the `tm` and `wordcloud` packages to parse the *tweets* and then create the *wordlcoud* figure. More information on R packages is available at [Quick-R](http://www.statmethods.net/interface/packages.html) and [CRAN](http://cran.r-project.org/web/packages/)
 
 {% highlight r %}
+# First install the packages
+
 install.packages("twitteR")
 install.packages("ROAuth")
+install.packages("tm")
+install.packages("wordcloud")
+
+# Next load the packages
+
 library("twitteR")
 library("ROAuth")
-install.packages("tm")
 library("tm")
-install.packages("wordcloud")
 library("wordcloud")
 {% endhighlight %}
 
