@@ -7,7 +7,7 @@ title: Teaching
 
 ## Research Roundtables
 
-1. [Multicollinearity]({{ site.url }}/teaching/2007-10-12_ResearchRoundtable_multicollinearity.ppt) with 2 embedd videos
+1. [Multicollinearity]({{ site.url }}/teaching/2007-10-12_ResearchRoundtable_multicollinearity.ppt) with 2 embeded videos
   - [N-dimensional Visualizer Animation]({{ site.url }}/teaching/NDV3.mp4)
   - [Sequence of Profile Plots]({{ site.url }}/teaching/ProfilePlots2.mp4)
 2. [Sources of Variance]({{ site.url }}/teaching/2008-04-11_ResearchRoundtableSourcesVariance.ppt)
