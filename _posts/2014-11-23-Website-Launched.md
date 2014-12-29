@@ -1,6 +1,6 @@
 ---
 layout : post
-title : My website launched
+title : My website launched at Github
 date : 2014-11-23
 category : Website
 tags : [Website]
