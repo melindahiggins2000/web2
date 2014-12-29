@@ -3,11 +3,9 @@ layout: page
 title: Teaching
 ---
 
-# Teaching
+# Teaching Materials and Lectures
 
-#### Some of my teaching materials, tutorials, docs, etc
+## Research Roundtables
 
-## add list of post lectures and other instructional materials
-
-<p> data to go here - more info to be added <p>
+1. 
 
