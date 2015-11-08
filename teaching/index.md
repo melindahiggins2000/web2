@@ -14,7 +14,7 @@ title: teaching
  Link To Research Roundtable Lectures &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="{{ site.url }}/research/lectureseries">Research Roundtables Archived</a>
+ <a class="redbutton" href="{{ site.url }}/teaching/RR">Research Roundtables Archived</a>
 </p>
 <hr/>
 
