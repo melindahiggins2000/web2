@@ -5,6 +5,17 @@ title: teaching
 
 # Teaching Materials and Lectures
 
+## R Workshops
+
+<hr/>
+<p>
+ R Workshops
+</p>
+<p>
+ <a class="redbutton" href="{{ site.url }}/teaching/RWorkshops">R Workshop Series</a>
+</p>
+<hr/>
+
 ## Research Roundtables
 
 <hr/>
