@@ -28,11 +28,5 @@ title: teaching
 </p>
 <hr/>
 
-<p>
- R Workshops
-</p>
-<p>
- <a class="redbutton" href="{{ site.url }}/teaching/RWorkshops">R Workshop Series</a>
-</p>
-<hr/>
+
 
