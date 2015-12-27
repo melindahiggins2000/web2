@@ -18,7 +18,7 @@ layout: page
 
 <hr/>
 
-<i class="ai ai-google-scholar-square ai-1x"></i>
+<i class="ai ai-google-scholar-square ai-3x"></i>
 
 <hr/>
 
