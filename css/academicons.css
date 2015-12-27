@@ -28,8 +28,12 @@
 .ai-google-scholar-square:before {
 	content: "\e901";
 }
+.ai-google-scholar-square {
+	content: "\e901";
+}
 .ai-google-scholar-square:hover {
 	content: "\e900";
+	transition: 0.3s ease-in;
 }
 .ai-researchgate:before {
 	content: "\e902";
