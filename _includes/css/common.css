@@ -314,6 +314,23 @@ a:hover {
   text-decoration: none; 
 } 
 
+.graytealbutton { 
+  background: #f2f2f2; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+  padding: 5px 10px 5px 10px; 
+  color: #777; 
+  text-decoration: none; 
+} 
+
+.graytealbutton:hover { 
+  background: #0a9cb2; 
+  transition: 0.3s ease-in;
+  color: white; 
+  text-decoration: none; 
+} 
+
 ul, ol {
   margin-top: 1.1em;
   margin-bottom: 1em;
