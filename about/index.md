@@ -22,7 +22,9 @@ layout: page
 
 <hr/>
 
-<a href="https://twitter.com/mhiggins2000/" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i>Twitter</a>
+<a href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
+
+<i class="ai ai-google-scholar-square ai-3x"></i>
 
 <hr/>
 
