@@ -7,21 +7,17 @@ layout: page
 
 #### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
 
-<a class="graybutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
+<a class="purplebutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
+<a class="purplebutton" href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">ResearcherID</a>
+<a class="purplebutton" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">ResearcherID</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank">GoogleScholar</a>
+<a class="purplebutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank">GoogleScholar</a>
 &nbsp;&nbsp;
-
-
-<a class="graybutton" href="https://melindahiggins2000.github.io/sasuniv2/" target="_blank">SAS Univ</a>
-&nbsp;&nbsp;
-<a class="graybutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
-
 <hr/>
+
+
 
 
 ## Summary
@@ -92,4 +88,12 @@ Original Site Source available by [Gaston Sanchez at github](https://github.com/
 Unless specified otherwise, content on this site is licensed under a 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+<hr/>
 
+##### Optional Buttons and Links
+
+<a class="purplebutton" href="https://melindahiggins2000.github.io/sasuniv2/" target="_blank">SAS Univ</a>
+&nbsp;&nbsp;
+<a class="purplebutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
+
+<hr/>
