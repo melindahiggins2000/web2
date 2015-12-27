@@ -13,6 +13,10 @@ layout: page
 &nbsp;&nbsp;
 <a class="graytealbutton" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">ResearcherID</a>
 &nbsp;&nbsp;
+
+<span id='badgeCont184498' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont184498&mashlet=badge&showTitle=false&className=a&rid=B-6459-2013&size=small'></script></span>
+
+
 <a class="graytealbutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank">GoogleScholar</a>
 &nbsp;&nbsp;
 <hr/>
