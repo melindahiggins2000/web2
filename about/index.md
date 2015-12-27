@@ -18,7 +18,7 @@ layout: page
 
 <hr/>
 
-<a class="ai-google-scholar-square" href="https://twitter.com/mhiggins2000/" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i>Twitter</a>
+<i class="ai ai-google-scholar-square ai-1x"></i>
 
 <hr/>
 
