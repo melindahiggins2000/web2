@@ -18,13 +18,7 @@ layout: page
 
 <hr/>
 
-<span id='badgeCont184498' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont184498&mashlet=badge&showTitle=false&className=a&rid=B-6459-2013&size=small'></script></span>
-
-<hr/>
-
-<a href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
-
-<i class="ai ai-google-scholar-square ai-3x"></i>
+<a href="https://twitter.com/mhiggins2000/" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i>&nbsp; Twitter</a>
 
 <hr/>
 
@@ -104,5 +98,7 @@ Unless specified otherwise, content on this site is licensed under a
 <a class="graytealbutton" href="https://melindahiggins2000.github.io/sasuniv2/" target="_blank">SAS Univ</a>
 &nbsp;&nbsp;
 <a class="graytealbutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
+
+<span id='badgeCont184498' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont184498&mashlet=badge&showTitle=false&className=a&rid=B-6459-2013&size=small'></script></span>
 
 <hr/>
