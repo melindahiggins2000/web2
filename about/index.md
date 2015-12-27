@@ -5,16 +5,21 @@ layout: page
 
 # About Me
 
-#### I'm a Biostatistician and Chemometrician - add more info here ...
+#### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
 
-
-<a class="graybutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
-&nbsp;&nbsp;
-<a class="graybutton" href="https://melindahiggins2000.github.io/sasuniv2/">SAS Univ</a>
+<a class="graybutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
 &nbsp;&nbsp;
 <a class="graybutton" href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
 &nbsp;&nbsp;
-<a class="graybutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
+<a class="graybutton" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">ResearcherID</a>
+&nbsp;&nbsp;
+<a class="graybutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank">GoogleScholar</a>
+&nbsp;&nbsp;
+
+
+<a class="graybutton" href="https://melindahiggins2000.github.io/sasuniv2/" target="_blank">SAS Univ</a>
+&nbsp;&nbsp;
+<a class="graybutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
 
 <hr/>
 
