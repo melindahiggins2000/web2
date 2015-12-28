@@ -25,10 +25,10 @@
 .ai-google-scholar:before {
 	content: "\e900";
 }
-.ai-google-scholar-square:before {
+.ai-google-scholar-square {
 	content: "\e901";
 }
-.ai-google-scholar-square {
+.ai-google-scholar-square:before {
 	content: "\e901";
 }
 .ai-google-scholar-square:hover {
