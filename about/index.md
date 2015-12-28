@@ -33,19 +33,13 @@ What I like about my "job" is ......
 
 ## Contact
 
-> Melinda Higgins, Ph.D;
-
-> Associate Professor Research;
-
-> Senior Biostatistician;
-
-> Emory University;
-
-> School of Nursing - Office of Research;
-
-> <a href="mailto:melinda.higgins@emory.edu">melinda.higgins@emory.edu</a>
-
-> 404-727-5180
+    Melinda Higgins, Ph.D  
+    Associate Professor Research  
+    Senior Biostatistician  
+    Emory University  
+    School of Nursing - Office of Research  
+    <a href="mailto:melinda.higgins@emory.edu">melinda.higgins@emory.edu</a>  
+    404-727-5180  
 
 <hr>
 
