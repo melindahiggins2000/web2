@@ -245,6 +245,17 @@ a:hover {
   transition: 0.2s ease-in;
 }
 
+.a2 { 
+  color: #0a9cb2;
+  text-decoration: none; 
+}
+
+.a2:hover { 
+  color: #f74a52; 
+  text-decoration: underline; 
+  transition: 0.2s ease-in;
+}
+
 .purplebutton { 
   background: #875bab; 
   -moz-border-radius: 5px; 
