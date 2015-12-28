@@ -3,23 +3,24 @@ title: About
 layout: page
 ---
 
-# About Me
+## About
 
 #### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
 
-<a class="graytealbutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
-&nbsp;&nbsp;
-<a class="graytealbutton" href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
-&nbsp;&nbsp;
-<a class="graytealbutton" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">ResearcherID</a>
-&nbsp;&nbsp;
-<a class="graytealbutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank">GoogleScholar</a>
+<a class="a2" href="https://github.com/melindahiggins2000" target="_blank">
+<i class="fa fa-github-square fa-3x"></i>github</a>
 &nbsp;&nbsp;
 
-<hr/>
+<a class="a2" href="https://twitter.com/mhiggins2000/" target="_blank">
+<i class="ai ai-google-scholar-square ai-3x"></i>Twitter</a>
+&nbsp;&nbsp;
+
+<a class="a2" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">
+<i class="ai ai-google-scholar-square ai-3x"></i>ResearcherID</a>
+&nbsp;&nbsp;
 
 <a class="a2" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
-
+&nbsp;&nbsp;
 <hr/>
 
 
@@ -98,6 +99,14 @@ Unless specified otherwise, content on this site is licensed under a
 <a class="graytealbutton" href="https://melindahiggins2000.github.io/sasuniv2/" target="_blank">SAS Univ</a>
 &nbsp;&nbsp;
 <a class="graytealbutton" href="https://melindahiggins2000.github.io/" target="_blank">Web1</a>
+<a class="graytealbutton" href="https://github.com/melindahiggins2000" target="_blank">github</a>
+&nbsp;&nbsp;
+<a class="graytealbutton" href="https://twitter.com/mhiggins2000/" target="_blank">Twitter</a>
+&nbsp;&nbsp;
+<a class="graytealbutton" href="http://www.researcherid.com/rid/B-6459-2013" target="_blank">ResearcherID</a>
+&nbsp;&nbsp;
+<a class="graytealbutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank">GoogleScholar</a>
+&nbsp;&nbsp;
 
 <span id='badgeCont184498' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont184498&mashlet=badge&showTitle=false&className=a&rid=B-6459-2013&size=small'></script></span>
 
