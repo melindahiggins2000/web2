@@ -19,7 +19,7 @@ I'm a Biostatistician and Chemometrician - both of which represent my passion an
 
 ## Summary
 
-In the last XX years I have been ......
+I am currently an active investigator and collaborator in the Office of Nursing Research at Emory University in the School of Nursing. 
 
 ## Overall Interests
 
