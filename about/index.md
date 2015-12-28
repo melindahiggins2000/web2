@@ -9,54 +9,36 @@ layout: page
 <a class="a2" href="mailto:melinda.higgins@emory.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
 <a class="a2" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
 </center>
-
+<hr/>
 
 ## About 
 
-#### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
-
-<hr/>
-
+I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
 
 ## Summary
 
 In the last XX years I have been ......
 
-
 ## Overall Interests
 
 My interesting include ......
-
-
-
 
 ## Blog
 
 My initial blog located at <a href="https://melindahiggins2000.github.io/blog/"> Github Blog </a>
 
-
 ## Trifecta
 
 What I like about my "job" is ......
 
-
-
-
 ## Contact
 
 > Melinda Higgins, Ph.D.
-
 > Associate Professor Research; Senior Biostatistician
-
 > Emory University
-
 > School of Nursing - Office of Research
-
 > <a href="mailto:melinda.higgins@emory.edu">melinda.higgins@emory.edu</a>
-
 > 404-727-5180
-
-
 
 <hr>
 
