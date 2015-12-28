@@ -18,7 +18,7 @@ layout: page
 
 <hr/>
 
-<a href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+<a class="greenbutton" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
 
 <hr/>
 
