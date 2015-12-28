@@ -7,9 +7,9 @@ layout: page
 
 #### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
 
-<a class="a2" href="https://github.com/melindahiggins2000" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>&nbsp
-<a class="a2" href="https://twitter.com/mhiggins2000/" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>&nbsp
-<a class="a2" href="mailto:melinda.higgins@emory.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp
+<a class="a2" href="https://github.com/melindahiggins2000" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;
+<a class="a2" href="https://twitter.com/mhiggins2000/" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>&nbsp;
+<a class="a2" href="mailto:melinda.higgins@emory.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
 <a class="a2" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
 <hr/>
 
