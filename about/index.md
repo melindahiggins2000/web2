@@ -7,7 +7,7 @@ layout: page
 <a class="a2" href="https://github.com/melindahiggins2000" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;
 <a class="a2" href="https://twitter.com/mhiggins2000/" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>&nbsp;
 <a class="a2" href="https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>&nbsp;
-<a class="a2" href="???https://www.linkedin.com/in/melinda-higgins-39a8878" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;
+<a class="a2" href="https://www.linkedin.com/in/melinda-higgins-39a8878" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;
 <a class="a2" href="mailto:melinda.higgins@emory.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
 <a class="a2" href="http://melindahiggins2000.github.io/web2/" target="_blank"><i class="fa fa-globe fa-3x"></i></a>&nbsp;
 </center>
