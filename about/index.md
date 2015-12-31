@@ -7,11 +7,11 @@ layout: page
 
 I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
 
-## Summary
+## Current
 
 I am currently an active investigator and collaborator in the Office of Nursing Research at Emory University in the School of Nursing. 
 
-## Overall Interests
+## Experience and Interests
 
 My interesting include ......
 
@@ -78,5 +78,7 @@ Unless specified otherwise, content on this site is licensed under a
 &nbsp;&nbsp;
 
 <span id='badgeCont184498' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont184498&mashlet=badge&showTitle=false&className=a&rid=B-6459-2013&size=small'></script></span>
+
+Test a few random emojis :heart_eyes: :sparkles: :octocat: :large_blue_circle:
 
 <hr/>
