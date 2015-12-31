@@ -81,4 +81,4 @@ Unless specified otherwise, content on this site is licensed under a
 
 ##### test emojis 
 
-Test a few random emojis :heart_eyes: :sparkles: :octocat: :large_blue_circle: :blush:
+Test a few random emojis :heart_eyes: :sparkles: :octocat: :large_blue_circle: :blush: and a unicode &#x1F305;
