@@ -15,9 +15,28 @@ I am currently a senior biostatistician and associate research professor in the 
 
 I most often use multilevel mixed linear and generalized linear models for longitudinal data analyses - usually comparing a treatment to usual care groups focusing on "group-by-time" interaction effects. However, I have also recently employed instrument response theory and factor analysis exploring latent variable structure for disease knowledge tests and symptom assessment. I have also begun exploring network graph theory and visualization techniques for visualizing multivariate associations and correlation structure among social, psychological, behavioral measures as well as biomarkers and "-omics" outcomes.
 
-## Experience and Interests
+## My Background, Experience and Interests
 
-My interesting include ......
+#### My early years
+
+Since my earliest years in grade school and high school I have always been passionate about science and math. In high school I was mentored by an excellent Chemistry teacher who was a PhD research chemist with expertise in organic chemistry. It was in high school that I first worked with scientists at the Fernbank Science Center and at Georgia Tech. They helped me with my science fair projects where I first used gas chromatography and did my first initial data analyses for modeling chemical composition. I also began learning about computers and programming. I learned how to work with a TRS-80 (aka "trash-80") and began running computer programs in BASIC via punch cards using a handset modem.
+
+#### College
+
+After high school, I attended Saint Andrews Presbyterian College (now [Saint Andrews University](http://www.sa.edu/)) from 1985-1989. While in college I double majored in math and chemistry. My math classes covered Calculus, differential equations, and statistics. In chemistry, I took many classes covering analytical chemistry, organic chemistry, natural product synthesis, physical chemistry, quantum mechanics and physics. I was also fortunate to work with many instruments including: gas and liquid chromatography, NMR (nuclear magnetic resonance), IR spectroscopy, UV spectroscopy, bomb calorimetry, pH meters, melting point (Mel-Temp) as well as glassware configurations for distillation and other chemical synthesis. 
+
+#### Student Apprentice at Georgia Tech Research Institute (GTRI)
+
+aaaaaaaaaaaaa
+
+#### Graduate School
+
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+
+#### Employment at Georgia Tech Research Institute (GTRI)
+
+aaaaaaaaaaaaaaaaaaa
+
 
 ## Blog
 
