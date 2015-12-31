@@ -5,7 +5,9 @@ layout: page
 
 ## About 
 
-I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas. I love learning new analysis methods and approaches and writing the code to make it happen. My latest endeavors include (trying) to use reproducible research and dynamic document procedures to make my data analyses streamlined, easy to execute and well annotated. 
+##### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas. I love learning new analysis methods and approaches and writing the code to make it happen. My latest endeavors include using reproducible research and dynamic document procedures to make my data analyses streamlined, easy to execute and well annotated. 
+
+<hr class="margin" />
 
 ## Current
 
