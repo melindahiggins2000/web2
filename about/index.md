@@ -5,11 +5,13 @@ layout: page
 
 ## About 
 
-I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas.
+I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas. I love learning new analysis methods and approaches and writing the code to make it happen. My latest endeavors include (trying) to use reproducible research and dynamic document procedures to make my data analyses streamlined, easy to execute and well annotated. 
 
 ## Current
 
-I am currently an active investigator and collaborator in the Office of Nursing Research at Emory University in the School of Nursing. 
+I am currently a senior biostatistician and associate research professor in the [Office of Nursing Research](http://www.nursing.emory.edu/faculty-and-research/onr/index.html) at [Emory University](http://www.emory.edu/) in the [Nell Hodgson Woodruff School of Nursing](http://www.nursing.emory.edu/). I primarily collaborate with our [Nursing researchers](http://www.nursing.emory.edu/faculty-and-research/index.html) on their clinical trials, but also support research in the School of Medicine and at [Yerkes National Primate Research Center](http://www.yerkes.emory.edu/). 
+
+I most often use multilevel mixed linear and generalized linear models for longitudinal data analyses - usually comparing a treatment to usual care groups focusing on "group-by-time" interaction effects. However, I have also recently employed instrument response theory and factor analysis exploring latent variable structure for disease knowledge tests and symptom assessment. I have also begun exploring network graph theory and visualization techniques for visualizing multivariate associations and correlation structure among social, psychological, behavioral measures as well as biomarkers and "-omics" outcomes.
 
 ## Experience and Interests
 
