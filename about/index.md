@@ -3,31 +3,31 @@ title: About
 layout: page
 ---
 
-# About 
+## About 
 
-### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas. I love learning new analysis methods and approaches and writing the code to make it happen. My latest endeavors include using reproducible research and dynamic document procedures to make my data analyses streamlined, easy to execute and well annotated. 
+#### I'm a Biostatistician and Chemometrician - both of which represent my passion and focus applying statistics, multivariate pattern recognition, modeling and programming for wide and diverse research areas. I love learning new analysis methods and approaches and writing the code to make it happen. My latest endeavors include using reproducible research and dynamic document procedures to make my data analyses streamlined, easy to execute and well annotated. 
 
 <hr class="margin" />
 
-# Current
+## Current
 
 I am currently a senior biostatistician and associate research professor in the [Office of Nursing Research](http://www.nursing.emory.edu/faculty-and-research/onr/index.html) at [Emory University](http://www.emory.edu/) in the [Nell Hodgson Woodruff School of Nursing](http://www.nursing.emory.edu/). I primarily collaborate with our [Nursing researchers](http://www.nursing.emory.edu/faculty-and-research/index.html) on their clinical trials, but also support research in the School of Medicine and at [Yerkes National Primate Research Center](http://www.yerkes.emory.edu/). 
 
 I most often use multilevel mixed linear and generalized linear models for longitudinal data analyses - usually comparing a treatment to usual care groups focusing on "group-by-time" interaction effects. However, I have also recently employed instrument response theory and factor analysis exploring latent variable structure for disease knowledge tests and symptom assessment. I have also begun exploring network graph theory and visualization techniques for visualizing multivariate associations and correlation structure among social, psychological, behavioral measures as well as biomarkers and "-omics" outcomes.
 
-# Experience and Interests
+## Experience and Interests
 
 My interesting include ......
 
-# Blog
+## Blog
 
 My initial blog located at <a href="https://melindahiggins2000.github.io/blog/"> Github Blog </a>
 
-# Trifecta
+## Trifecta
 
 What I like about my "job" is ......
 
-# Contact
+## Contact
 
   Melinda Higgins, Ph.D  
   Associate Professor Research  
@@ -39,7 +39,7 @@ What I like about my "job" is ......
 
 <hr class="margin" />
 
-# About this website
+## About this website
 
 This website is ............
 
