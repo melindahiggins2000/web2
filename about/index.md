@@ -79,4 +79,6 @@ Unless specified otherwise, content on this site is licensed under a
 
 <span id='badgeCont184498' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont184498&mashlet=badge&showTitle=false&className=a&rid=B-6459-2013&size=small'></script></span>
 
+Test a few random emojis :heart_eyes: :sparkles: :octocat: :large_blue_circle:
+
 <hr/>
