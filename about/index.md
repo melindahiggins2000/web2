@@ -21,7 +21,7 @@ My interesting include ......
 
 ## Blog
 
-My initial blog located at <a href="https://melindahiggins2000.github.io/blog/"> Github Blog </a>
+My initial blog located at <a href="http://melindahiggins2000.github.io/blog/"> Github Blog </a>
 
 ## Trifecta
 
