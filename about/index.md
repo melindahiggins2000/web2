@@ -17,7 +17,7 @@ I most often use multilevel mixed linear and generalized linear models for longi
 
 ## My Background, Experience and Interests
 
-#### My early years - Science and Math
+#### **My early years - Science and Math**
 
 Since my earliest years in grade school and high school I have always been passionate about science and math. In high school I was mentored by an excellent Chemistry teacher who was a PhD research chemist with expertise in organic chemistry. It was in high school that I first worked with scientists at the Fernbank Science Center and at Georgia Tech. They helped me with my science fair projects where I first used gas chromatography and did my first initial data analyses for modeling chemical composition. I also began learning about computers and programming. I learned how to work with a TRS-80 (aka "trash-80") and began running computer programs in BASIC via punch cards using a handset modem and a card reader.
 
