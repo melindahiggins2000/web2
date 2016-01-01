@@ -17,15 +17,15 @@ I most often use multilevel mixed linear and generalized linear models for longi
 
 ## My Background, Experience and Interests
 
-#### **My early years - Science and Math**
+#### [1975-1985] My early years - Science and Math
 
 Since my earliest years in grade school and high school I have always been passionate about science and math. In high school I was mentored by an excellent Chemistry teacher who was a PhD research chemist with expertise in organic chemistry. It was in high school that I first worked with scientists at the Fernbank Science Center and at Georgia Tech. They helped me with my science fair projects where I first used gas chromatography and did my first initial data analyses for modeling chemical composition. I also began learning about computers and programming. I learned how to work with a TRS-80 (aka "trash-80") and began running computer programs in BASIC via punch cards using a handset modem and a card reader.
 
-#### College - Dual Major Math & Chemistry
+#### [1985-1989] College - Dual Major Math & Chemistry
 
 After high school, I attended Saint Andrews Presbyterian College (now [Saint Andrews University](http://www.sa.edu/)) in Laurinburg, NC from 1985-1989. While in college I double majored in math and chemistry. My math classes covered Calculus, differential equations, and statistics. In chemistry, I took many classes covering analytical chemistry, organic chemistry, natural product synthesis, physical chemistry, quantum mechanics and physics. I was also fortunate to work hands-on with many instruments including: gas and liquid chromatography, NMR (nuclear magnetic resonance), IR spectroscopy, UV spectroscopy, mass spectrometry, bomb calorimetry, pH meters, melting point (Mel-Temp) as well as glassware configurations for distillation and other chemical synthesis. I also learned how to program in PROLOG logic programming language, PASCAL and some FORTRAN with brief introduction to OOP (object oriented programming). I worked on mainframe computers running UNIX and on PC's running DOS and learned batch processing and coding.
 
-#### Student Apprentice at Georgia Tech Research Institute (GTRI) - Indoor Air and Environmental Exposure Lab
+#### [1985-1989] Student Apprentice at Georgia Tech Research Institute (GTRI) - Indoor Air and Environmental Exposure Lab
 
 While home in Atlanta during summers and holiday breaks during my college years from 1985-1989, I worked as a student employee at the [Georgia Tech Research Institute](http://gtri.gatech.edu/). I worked in an environmental exposure lab run by Dr. Charlene Bayer, current Chief Scientist at [Hygieia Sciences LLC](http://hygieiasciences.com/), and [Dr. Marilyn Black](http://www.tuff.org/marilyn-s-black) (who left GTRI and founded Air Quality Sciences and the GREENGUARD Environmental Institute). I analyzed samples of indoor air, water, soil and commercial products. I analyzed these various media for many types of contaminants. However, primary analytes of focus included pesticides, asbestos, second-hand smoke and volitile organiz compounds (VOCs). The lab was well known for their work on "sick building syndrome" and modeling indoor air contamination using real-time simulation and data collection with custom built room sized air exchange chambers. 
 
@@ -33,15 +33,19 @@ I gained a lot of experience working with gas chromatographs using a variety of 
 
 Needless to say working with these many instruments and types of analyses and a wide range of analytes, I became increasingly interested in data manipulation and analyses - especially on how to best handle and approach these multidimensional datasets. By the time I completed my undergraduate degree (Bachelor's of Science with dual-major in math and chemistry), I realized that I wanted to continue my education and get my Ph.D for several reasons - but mainly because I was ready to do more than prepare and run analyses and I wanted to learn more data analysis and move away from wet chemistry and do more using computers. 
 
-#### Graduate School (part 1) - Chemometrics, Experimental Design and Optimization
+#### [1989-1994] Graduate School (part 1) - Chemometrics, Experimental Design and Optimization
 
 Given my work experiences at GTRI, I found the field of Chemometrics fit the bill for what I wanted to do. Up to this point given all of my work with numerous instruments for analyzing chemical samples, I was well trained to pursue a degree in Analytical Chemistry. Analytical Chemistry is the discipline of finding optimal ways of breaking down samples into their components to figure out what is there and how much. This can be accomplished chemically by working on separation science (more wet chemistry) OR numerically (yea!) through multivariate pattern recognition and classification approaches. This is Chemometrics. In 1989 there were not many researchers let alone schools/universities with a focus in Chemometrics. One of the most well known Chemometricians in the US was Dr. Bruce Kowalski at the university of Washington in Seattle, WA. Dr. kowalski's research group was very large with multiple post docs and numerous graduate students - where I worried I'd disappear into the moras of the big group - plus it was over 2500 miles away from home. I also found Dr. Stephen Morgan at the University of South Carolina who was also well known for his work and short courses in Experimental Design and Optimization methods as well as work in Chemometrics. So to USC I went.
 
+When I began my Ph.D. work, my initial research focused on using deuterium to selectively tag stereoisomers of the hexose sugars (alditol hexaacetates) for optimal separation of these sugars using mass spectrometry with numerical classification and separation via factor analysis methods. At the time, we were still running DOS based computers - so to accomplish the factor analyses, I used the LAPACK linear algebra package routines. I wrote all of the codes in PASCAL to accomplish the analyses. Then we slowly updgraded computers - first to Window-DOS then eventually to Windows 3.x. After getting Windows running we also had access to the MATLAB software and programming language which made matrix algebra routines a breeze. You could accomplish singular value decomposition in 1 line of code!! I was converted. I abandoned PASCAL and moved all of my Ph.D research into MATLAB.
 
+What I was missing, however, was a solid foundation in matrix algebra and statistical theory. So, while pursuing my Ph.D in Chemometrics, I also began taking as many math and stats courses as I could to support my research. By the time I finished my Ph.D. dissertation in 1994, I was within 9 course hours of having a Masters in Statistics. So, after I graduated with my Ph.D I immediately enrolled in the Statistics department to finish my Masters in Statistics.
 
-#### Graduate School (part 2) - Statistics
+#### [1990-1995] Graduate School (part 2) - Statistics
 
-aaaaaaaaaaaaaaaaaa
+While I had been taking math and stats courses since the early 90's, I officially enrolled in the Statistics Department at USC in 1994. I choose Dr. Don Edwards as my advisor and began my Master's Thesis. The focal point of my thesis was on applying novel experimental design techniques for optimizing measurements related to estimating enzyme kinetics coefficients. My approach used the Michaelis-Menten equation. I worked with researchers in the Biology department to collect data and run experiments.
+
+In my math and stats courses, I learned SAS and how to run it on a mainframe using JCL batch code as well as later how to run SAS in UNIX and on PCs. I also learned S-plus running in UNIX. The majority of my thesis was accomplished using S-plus. It was later while working at GTRI that I switched to R from S-plus, but I already had a solid foundation.
 
 #### Employment at Georgia Tech Research Institute (GTRI)
 
@@ -50,7 +54,7 @@ aaaaaaaaaaaaaaaaaaa
 
 ## Blog
 
-My initial blog located at <a href="http://melindahiggins2000.github.io/blog/"> Github Blog </a>
+My initial blog was located at <a href="http://melindahiggins2000.github.io/blog/"> Github Blog </a>
 
 ## Trifecta
 
