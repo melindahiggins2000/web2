@@ -57,14 +57,7 @@ In about 1997, I moved into the Electro-optics division of EOEML. I moved over t
 
 I also began to work more with Dr. Nick Faust.
 
-
-## Blog
-
-My initial blog was located at <a href="http://melindahiggins2000.github.io/blog/"> Github Blog </a>
-
-## Trifecta
-
-What I like about my "job" is ......
+<hr class="margin" />
 
 ## Contact
 
@@ -78,15 +71,7 @@ What I like about my "job" is ......
 
 <hr class="margin" />
 
-## About this website
-
-This website is ............
-
-<p>
-<img class="centered" src="https://melindahiggins2000.github.io/web2//images/website/trees.jpg" alt="colophon"/> 
-</p>
-
-## Colophon
+## Website Colophon
 
 I designed and developed this site using: 
 
@@ -105,6 +90,28 @@ Unless specified otherwise, content on this site is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 <hr class="margin" />
+
+#### REFs
+
+1. Doll, T.H., McWhorter, S.W., Schmieder, D.E., and Wasilewski, A.A. (1995). Simulation of Selective Attention and Training Effects in Visual Search and Detection, in Vision Models for Target Detection and Recognition, Peli, E. editor. World Scientific Publishing Co. River Edge, NJ.
+
+2. Doll, T.H., McWhorter, S.W., Schmieder, D.E., Hertzler, M.C., Stewart, J.M., Wasilewski, A.A., Owens, W.R., Sheffer, A.D.Galloway, G.L. and Herbert, S.D. (1997). Biologically-based vision simulation for target-background discrimination and camouflage/lo design. Paper No. 3062-29 in Targets and Backgrounds: Proceedings of the International Society of Photo-optical Instrumentation Engineers, Watkins, W.R. and Clemen
+
+<hr class="margin" />
+
+## Random bits
+
+## Blog
+
+My initial blog was located at <a href="http://melindahiggins2000.github.io/blog/"> Github Blog </a>
+
+## About this website
+
+This website is ............
+
+<p>
+<img class="centered" src="https://melindahiggins2000.github.io/web2//images/website/trees.jpg" alt="colophon"/> 
+</p>
 
 ##### Optional Buttons and Links
 
@@ -125,11 +132,3 @@ Unless specified otherwise, content on this site is licensed under a
 ##### test emojis 
 
 Test a few random emojis :heart_eyes: :sparkles: :octocat: :large_blue_circle: :blush: and a unicode &#x1F305;
-
-#### REFs
-
-1. Doll, T.H., McWhorter, S.W., Schmieder, D.E., and Wasilewski, A.A. (1995). Simulation of Selective Attention and Training Effects in Visual Search and Detection, in Vision Models for Target Detection and Recognition, Peli, E. editor. World Scientific Publishing Co. River Edge, NJ.
-
-2. Doll, T.H., McWhorter, S.W., Schmieder, D.E., Hertzler, M.C., Stewart, J.M., Wasilewski, A.A., Owens, W.R., Sheffer, A.D.Galloway, G.L. and Herbert, S.D. (1997). Biologically-based vision simulation for target-background discrimination and camouflage/lo design. Paper No. 3062-29 in Targets and Backgrounds: Proceedings of the International Society of Photo-optical Instrumentation Engineers, Watkins, W.R. and Clemen
-
-
