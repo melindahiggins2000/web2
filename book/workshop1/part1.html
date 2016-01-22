@@ -59,7 +59,7 @@
         data-chapter-title="Working in Basic R"
         data-filepath="workshop1/part1.md"
         data-basepath=".."
-        data-revision="Thu Jan 21 2016 21:01:28 GMT-0500 (Eastern Standard Time)"
+        data-revision="Thu Jan 21 2016 22:03:45 GMT-0500 (Eastern Standard Time)"
         data-innerlanguage="">
     
 
@@ -405,13 +405,19 @@
 <h2 id="find-out-which-directory-r-thinks-is-your-home-directory">Find out which directory R thinks is your home directory</h2>
 <hr>
 <p>Type <code>getwd()</code> at the prompt <code>&gt;</code> which is short for &quot;get working directory&quot;</p>
-<p>C:/MyGithub/A_Series_of_R_Workshops/workshop1</p>
-<p>Let&apos;s change this to a directory on your computer that already exists. So, go ahead and create a directory on your computer where you want to save your files and work. As an example on my computer I already created a directory for these workshops at <code>C:\MyR\2016_Spring_RWorkshops</code>. However, for this to work in R I have to flip the <code>\</code> backslashes to the <code>/</code> forward slashes. So, at the prompt to change my working directory I would type:</p>
+<pre><code class="lang-r">&gt; getwd()
+</code></pre>
+<pre><code>[1] &quot;C:/MyGithub/A_Series_of_R_Workshops/workshop1&quot;
+</code></pre><p>Let&apos;s change this to a directory on your computer that already exists. So, go ahead and create a directory on your computer where you want to save your files and work. As an example on my computer I already created a directory for these workshops at <code>C:\MyR\2016_Spring_RWorkshops</code>. However, for this to work in R I have to flip the <code>\</code> backslashes to the <code>/</code> forward slashes. So, at the prompt to change my working directory I would type:</p>
 <p><code>setwd(&quot;C:/MyR/2016_Spring_RWorkshops&quot;)</code></p>
+<pre><code class="lang-r">&gt; setwd(<span class="hljs-string">&quot;C:/MyR/2016_Spring_RWorkshops&quot;</span>)
+</code></pre>
 <p>NOTE: On a Mac this should be <code>setwd(&quot;/MyR/2016_Spring_RWorkshops&quot;)</code>.</p>
 <p>Next, double check to see that the working directory changed. Run <code>getwd()</code> again.</p>
-<p>C:/MyR/2016_Spring_RWorkshops</p>
-<h2 id="lets-do-some-math-with-r">Let&apos;s do some math with R</h2>
+<pre><code class="lang-r">&gt; getwd()
+</code></pre>
+<pre><code>[1] &quot;C:/MyGithub/A_Series_of_R_Workshops/workshop1&quot;
+</code></pre><h2 id="lets-do-some-math-with-r">Let&apos;s do some math with R</h2>
 <hr>
 <p>Type each of the following lines at the R prompt and review the output.</p>
 <pre><code class="lang-r">&gt; <span class="hljs-number">2</span> + <span class="hljs-number">2</span>
@@ -460,7 +466,7 @@
 [11] &quot;November&quot;  &quot;December&quot;
 </code></pre><h2 id="lets-create-some-data-and-variables-with-r">Let&apos;s create some data and variables with R.</h2>
 <hr>
-<p>Notice that we use the <code>&lt;-</code> assignment command. This is equivalent to using an <code>=</code> equals sign. However, the <code>=</code> sign had other functionality in R. So, to avoid confusion the assignment <code>&lt;-</code> command is used. <code>x &lt;- 5</code> is read as x gets 5 or rather x is assigned to 5.</p>
+<p>Notice that we use the <code>&lt;-</code> assignment command. This is equivalent to using an <code>=</code> equals sign. However, the <code>=</code> sign had other functionality in R. So, to avoid confusion the assignment <code>&lt;-</code> command is used. <code>x &lt;- 5</code> is read as &quot;x gets 5&quot;&quot; or rather &quot;x is assigned to 5&quot;.</p>
 <p>You will also notice after typing each command nothing else happens - no output is shown. To see what has been assigned to each variable, you simply type the name of the variable.</p>
 <pre><code class="lang-r">&gt; x &lt;- <span class="hljs-number">3</span> * <span class="hljs-number">5</span>
 &gt; x
@@ -477,7 +483,7 @@
 </code></pre>
 <pre><code> [1]  0.0  0.5  1.0  1.5  2.0  2.5  3.0  3.5  4.0  4.5  5.0  5.5  6.0  6.5
 [15]  7.0  7.5  8.0  8.5  9.0  9.5 10.0
-</code></pre><p>or we can also use the limited tools within the Basic R interface to view the data contained in the variable <code>z</code>. Click on Edit/Data Editor, tpye in <code>z</code> to open the data editor window. This can also be opened using the <code>fix()</code> function as follows:</p>
+</code></pre><p>or we can also use the limited tools within the Basic R interface to view the data contained in the variable <code>z</code>. Click on Edit/Data Editor, type in <code>z</code> to open the data editor window. This can also be opened using the <code>fix()</code> function as follows:</p>
 <pre><code class="lang-r">&gt; fix(z)
 </code></pre>
 <p>Alternatively you can use the <code>View()</code> function. Type both of the following - which one worked?</p>
@@ -486,11 +492,11 @@
 <pre><code>Error in eval(expr, envir, enclos): could not find function &quot;view&quot;
 </code></pre><pre><code class="lang-r">&gt; View(z)
 </code></pre>
-<p>The first one typed with a lowercase v gave an error. R is CaSe sensitive!! The variables <code>z</code> and <code>Z</code> are different. This is good and bad. It is good since adding case greatly expands the range of variable names that can be used but it is bad since you have to remember exactly the way a variable was typed for it to work.</p>
+<p>The first one typed with a lowercase v gave an error. R is CaSe sensitive!! The variables <code>z</code> and <code>Z</code> are different. This is good and bad. It is good since adding case greatly expands the range of variable names that can be used, but it is bad since you have to remember exactly the way a variable was typed for it to work.</p>
 <p>Next let&apos;s perform a transformation on z and save the results to a new variable called <code>sinz</code>.</p>
 <pre><code class="lang-r">&gt; sinz &lt;- sin(z)
 </code></pre>
-<p>So, we&apos;ve created about 4 variables so far. Where are they? To look at what variables and data we&apos;ve created so far we have to LIST them. To do this, we use the <code>ls()</code> function in R. NOTE: Your list may look slightly different depending on your default directory and anything else you might have created along the way. You can ignore the <code>bib</code> object listed below. This is generated as part of this GITBOOK.</p>
+<p>So, we&apos;ve created about 4 variables so far. Where are they? To look at what variables and data we&apos;ve created so far we have to LIST them. To do this, we use the <code>ls()</code> function in R. NOTE: Your list may look slightly different depending on your default directory and anything else you might have created along the way. You can ignore the <code>bib</code> object listed below. This was generated as part of this GITBOOK.</p>
 <pre><code class="lang-r">&gt; ls()
 </code></pre>
 <pre><code>[1] &quot;bib&quot;  &quot;sinz&quot; &quot;x&quot;    &quot;y&quot;    &quot;z&quot;
@@ -498,18 +504,18 @@
 <hr>
 <pre><code class="lang-r">&gt; plot(z,sinz)
 </code></pre>
-<p><img src="figure/unnamed-chunk-10-1.png" alt="plot of chunk unnamed-chunk-10"> </p>
+<p><img src="figure/unnamed-chunk-13-1.png" alt="plot of chunk unnamed-chunk-13"> </p>
 <p>Next redo plot with axis labels, a title and a subtitle</p>
 <p><code>plot(z,sinz,xlab=&apos;Z = Sequence 0 to 10 by 0.5&apos;,ylab=&apos;Sin(Z)&apos;,main=&apos;Main title&apos;,sub=&apos;example subtitle&apos;)</code></p>
-<p><img src="figure/unnamed-chunk-11-1.png" alt="plot of chunk unnamed-chunk-11"> </p>
+<p><img src="figure/unnamed-chunk-14-1.png" alt="plot of chunk unnamed-chunk-14"> </p>
 <p>The <code>plot()</code> function opens a new plot. So to overlay a line or add or modify the points in the plot there are additional functions <code>lines()</code> and <code>points()</code> that can be used to overlay and augment the exisiting plot currently displayed.</p>
 <p>So, let&apos;s add a BLUE line to the plot overlaid on the points shown.</p>
 <p><code>lines(z,sinz,col=&apos;blue&apos;)</code></p>
-<p><img src="figure/unnamed-chunk-12-1.png" alt="plot of chunk unnamed-chunk-12"> </p>
+<p><img src="figure/unnamed-chunk-15-1.png" alt="plot of chunk unnamed-chunk-15"> </p>
 <p>And let&apos;s customize the points. The plotting character <code>pch=23</code> is a filled diamond. <code>col</code> defines the color and <code>bg</code> defines the filled or background color.</p>
 <p><code>points(z,sinz,pch=23,col=&apos;red&apos;,bg=&apos;black&apos;)</code></p>
-<p><img src="figure/unnamed-chunk-13-1.png" alt="plot of chunk unnamed-chunk-13"> </p>
-<p>Alternatively, we can create a script and run all of these R commands together. Here is the code all together.</p>
+<p><img src="figure/unnamed-chunk-16-1.png" alt="plot of chunk unnamed-chunk-16"> </p>
+<p>Alternatively, we can create a script and run all of these R commands together. Here is the code all together. In the print out below, the additional commands that appear on following lines are indicated by a plus <code>+</code> sign until all options are defined and the function is complete.</p>
 <pre><code class="lang-r">&gt; plot(z, sinz,
 +         xlab = <span class="hljs-string">&apos;Z = Sequence 0 to 10 by 0.5&apos;</span>,
 +         ylab = <span class="hljs-string">&apos;Sin(Z)&apos;</span>,main=<span class="hljs-string">&apos;Main title&apos;</span>,
@@ -517,11 +523,12 @@
 &gt; lines(z, sinz, col = <span class="hljs-string">&apos;blue&apos;</span>)
 &gt; points(z, sinz, pch = <span class="hljs-number">23</span>, col = <span class="hljs-string">&apos;red&apos;</span>, bg = <span class="hljs-string">&apos;black&apos;</span>)
 </code></pre>
-<p><img src="figure/unnamed-chunk-14-1.png" alt="plot of chunk unnamed-chunk-14"> </p>
-<p>You can go to the File menu and click &quot;New Script&quot;. Then cut and paste in the commands above. Then, select code, right click and &quot;run selection or highlight code and click CTRL-R to specifically run the following code all together. Note: the spaces and line returns were added for clarity. Note: RStudio helps with good formatting practices</p>
-<p>Once the plot is created, in the graphics Window, right click and either copy as either metafile or bitmap or Save as metafile or postscript. Metafile is the Windows Vector graphics format which is scalable and portable. The bitmap format will not scale as well. Many journals prefer postscript.</p>
+<p><img src="figure/unnamed-chunk-17-1.png" alt="plot of chunk unnamed-chunk-17"> </p>
+<p>Next go to the File menu and click &quot;New Script&quot;. Then cut and paste the commands above into this window and save the script file in your directory - something like &quot;plot1.r&quot; - script files default to the extension <code>.r</code>. Then, select (<em>highlight</em>) the code you just put into the window, right click and &quot;run selection or highlight the code and click CTRL-R to specifically run the following code all together. Note: the spaces and line returns were added for clarity. Note: RStudio helps with good formatting practices.</p>
+<p>Once the plot is created, in the graphics Window, right click and either &quot;copy as&quot;&quot; either metafile or bitmap or &quot;save as&quot;&quot; metafile or postscript. Metafile is the Windows Vector graphics format which is scalable and portable. The bitmap format will not scale as well. Many journals prefer postscript.</p>
 <p>To finish Part 1 - close/exit the R program. BEFORE you close R, you can save your Workspace (xxx.RData) and save your History (xxx.Rhistory). The Workspace saves all of the variables and data you created. The History file saves every command you typed during your R session - this is similar to a SAS log file and the running SYNTAX saved to the SPSS output file and log. SPSS also has a Journal file which also saves commands you&apos;ve entered during each session.</p>
 <h2 id="complete-r-code-script-from-part-1">Complete R code script from Part 1</h2>
+<p>Notice in the R script below my comments begin with the pound <code>#</code> symbol. This is how comments are added to R code. Anything after the <code>#</code> is ignored and not executed - only echo&apos;d to the console.</p>
 <hr>
 <pre><code># ====================================
 # Workshop 1

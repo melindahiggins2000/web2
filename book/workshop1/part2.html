@@ -59,7 +59,7 @@
         data-chapter-title="Working in RStudio"
         data-filepath="workshop1/part2.md"
         data-basepath=".."
-        data-revision="Thu Jan 21 2016 21:01:28 GMT-0500 (Eastern Standard Time)"
+        data-revision="Thu Jan 21 2016 22:03:45 GMT-0500 (Eastern Standard Time)"
         data-innerlanguage="">
     
 
@@ -403,12 +403,12 @@
 <hr>
 <p>We will go through many of the same steps we did in Part 1, but this time we will run them in RStudio so you can see how the RStudio IDE (integrated development environment) helps mangage your data, code and output much more efficiently. </p>
 <p>In Workshop 3 we will also explore the EXCELLENT RMarkdown functionality built into RStudio combining analysis with documentation and report writing making the entire process seamless and efficient!</p>
-<p>While RStudio has many more windows and menus enabling point-and-click interaction with R codes and functions, it is not the typicaly GUI (graphical user interface) </p>
+<p>While RStudio has many more windows and menus enabling point-and-click interaction with R codes and functions, it is not the typicaly GUI (graphical user interface). You cannot perform canned statistical analyses through point-and-click menus in R and RStudio. Instead you record everything - all commands - for loading, manipulating, analyzing and even reporting all of your results. This enables complete documentation of the entire process greatly improving the ability to reproduce your research!!</p>
 <h2 id="launch-rstudio">Launch RStudio</h2>
 <hr>
-<p>Go ahead launch RStudio and we will explore the interface.</p>
+<p>Go ahead and launch RStudio and we will explore the interface.</p>
 <p>When RStudio opens, your interface may not look the same as mine so we will systematically go through each window and explain what it does.</p>
-<p>If you do not have a script window open, do ahead and create one. Go to File/New File/R Script. This should open a blank window in the upper left corner of the software interface. This is basically a simple text window where we will type our R codes and then execute them rather than typing them in the &quot;console&quot; window (typically located in the bottom left corner).</p>
+<p>If you do not have a script window open, go ahead and create one. Go to &quot;File/New File/R Script&quot;. This should open a blank window in the upper left corner of the software interface. This is basically a simple text window where we will type our R codes and then execute them rather than typing them in the &quot;console&quot; window (typically located in the bottom left corner).</p>
 <p>In this window let&apos;s put in the commands we ran before in Part 1.</p>
 <pre><code>2 + 2
 3 + (4*8)
@@ -417,8 +417,8 @@
 12^2
 pi
 4 * pi
-</code></pre><p>You will notice that as each command above is &quot;run&quot; (executed) the the command is echo&apos;d in the console window at the bottom left and the output shown in the console as we did before in the Basic R interface.</p>
-<p>Again what if we want to save these values. To do so we have to assign them <code>&lt;-</code> to a variable. So, let&apos;s run through the next set of commands. As you do so, watch the upper right window for the &quot;Global Environment&quot;.</p>
+</code></pre><p>You will notice that as each command above is &quot;run&quot; (executed) the command is echo&apos;d in the console window at the bottom left as well as the output which is also shown in the console like we did before in the Basic R interface.</p>
+<p>Again, what if we want to save these values? To do so we have to assign them <code>&lt;-</code> to a variable. So, let&apos;s run through the next set of commands. As you do so, watch the upper right window for the &quot;Global Environment&quot;.</p>
 <pre><code>x &lt;- 3 * 5
 x
 y &lt;- 1:12
@@ -426,7 +426,7 @@ y
 z &lt;- seq(0,10,.5)
 sinz &lt;- sin(z)
 </code></pre><p>You should notice that the variables created above now show up in the top right &quot;Global Envrionment&quot; window. You will notice that the variable <code>x</code> shows the value of 15. However, the other variables <code>y</code>, <code>z</code>, and <code>sinz</code> all show a list of numbers. These are all vectors.</p>
-<p><code>x</code> is a vector of length 1 since it has only 1 element. You can confirm this using the <code>length()</code> function. Try running this function for each of the variables <code>x</code>, <code>y</code>, <code>z</code>, and <code>sinz</code>.</p>
+<p><code>x</code> is a vector of length one (1) since it has only 1 element. You can confirm this using the <code>length()</code> function. Try also running the <code>length()</code> function for each of the variables <code>x</code>, <code>y</code>, <code>z</code>, and <code>sinz</code>.</p>
 <pre><code class="lang-r">&gt; length(x)
 </code></pre>
 <pre><code>[1] 1
@@ -439,7 +439,7 @@ sinz &lt;- sin(z)
 </code></pre><pre><code class="lang-r">&gt; length(sinz)
 </code></pre>
 <pre><code>[1] 21
-</code></pre><p>This is only 1 way to learn about the variables you created. You will also notice that in the upper right window that each vector that has more than 1 element the size of the vector is listed inside the brackets <code>[]</code>&apos;s. Each vector is also listed as to the type of vector it is. <code>z</code> and <code>sinz</code> are &quot;numeric&quot; vectors whereas <code>y</code> is an &quot;integer&quot; vector. This can also been seen using the structure function <code>str()</code> and <code>class()</code> function. Try using these and compare the results exploring the structure and class of <code>z</code> and <code>y</code>.</p>
+</code></pre><p>This is only one way to learn about the variables you created. You will also notice that in the upper right window that each vector that has more than 1 element the size of the vector is listed inside the brackets <code>[]</code>&apos;s. Each vector is also listed as to the type of vector it is. <code>z</code> and <code>sinz</code> are &quot;numeric&quot; vectors whereas <code>y</code> is an &quot;integer&quot; vector. This can also been seen using the structure function <code>str()</code> and <code>class()</code> function. Try using these functions and compare the results exploring the structure and class of <code>z</code> and <code>y</code>.</p>
 <pre><code class="lang-r">&gt; str(y)
 </code></pre>
 <pre><code> int [1:12] 1 2 3 4 5 6 7 8 9 10 ...
@@ -476,15 +476,15 @@ sinz &lt;- sin(z)
 </code></pre>
 <pre><code>[1] &quot;numeric&quot;
 </code></pre><p>When types are mixed, R sets them all to the type that will best encompass and retain the values. </p>
-<p>We will cover many more variable types in the later Workshops. However, let&apos;s look at 1 more variable type that is the mainstay of most R data handling and analyses - the Data Frame. One way to create a data frame is to combine vectors of the same size together. We can combine these using the <code>data.frame()</code> function. For this example we will combine the <code>y</code> vector we created with numbers 1 to 12 and combine these with the saved constant vectors of the month names (<code>month.name</code>) and month abbreviations (<code>month.abb</code>).</p>
+<p>We will cover many more variable types in the later Workshops. However, let&apos;s look at 1 more variable type that is the mainstay of most R data handling and analyses - the <strong>Data Frame</strong>. One way to create a data frame is to combine vectors of the same size together. We can combine these using the <code>data.frame()</code> function. For this example we will combine the <code>y</code> vector we created with numbers 1 to 12 and combine these with the saved constant vectors of the month names (<code>month.name</code>) and month abbreviations (<code>month.abb</code>) - all 3 vectors of length 12 - although <code>y</code> is an integer vector whereas <code>month.name</code> and <code>month.abb</code> are both character vectors. <strong>Data Frames</strong> are designed to combine vectors of different types together as long as they are the same length.</p>
 <pre><code class="lang-r">&gt; df1 &lt;- data.frame(y, month.name, month.abb)
 </code></pre>
-<p>You will notice that this new object is create and shows up in the upper right window but is now listed as &quot;Data&quot; instead of simply as &quot;Values&quot;. There is also now a little blue circle with an arrow in it next to the object <code>df1</code>. Click this little arrow. This opens up a list of each of the variables now contained inside this data frame. You can also &quot;View&quot; the data in this data frame by clicking on the little table/grid icon to the right of the object listed in the top right window. This basically runs the <code>View(df1)</code> code without you having to type it. In fact, check the console window at the lower left to confirm that this is correct.</p>
+<p>You will notice that this new object <code>df1</code> is created and shows up in the upper right window but is now listed as &quot;Data&quot; instead of simply as &quot;Values&quot;. There is also now a little blue circle with an arrow in it just to the left of object <code>df1</code>. Click this little arrow. This opens up a list of each of the variables now contained inside this data frame. You can also &quot;View&quot; the data in this data frame by clicking on the little table/grid icon to the right of the object listed in the top right window. This basically runs the <code>View(df1)</code> code without you having to type it. In fact, check the console window at the lower left to confirm that this is correct.</p>
 <h2 id="lets-load-a-package-with-added-functionality--ggplot2-aka-the-grammar-of-graphics">Let&apos;s load a package with added functionality - ggplot2, aka &quot;The Grammar of Graphics&quot;</h2>
-<p>What are packages? R packages are how additional functionality is added to R beyond what is available in the base software system. There are 3 main ways to find packages of interest to add functionality. The biggest of the 3 is <a href="https://cran.r-project.org/" target="_blank">CRAN</a> which is the Comprehensive R Archive Network. As of this writing there are over 7000+ packages on <a href="https://cran.r-project.org/web/packages/" target="_blank">CRAN</a>. Other places to get R packages include <a href="https://github.com/" target="_blank">GitHub</a>; <a href="https://www.bioconductor.org/" target="_blank">Bioconductor</a> and simply getting the ZIP file from the creator/maintainer directly.</p>
+<p>What are packages? R packages are how additional functionality is added to R beyond what is available in the base software system. There are 3 main ways to find packages of interest to add functionality. The biggest of the 3 is <a href="https://cran.r-project.org/" target="_blank">CRAN</a> which is the Comprehensive R Archive Network. As of this writing there are over 7000+ packages on <a href="https://cran.r-project.org/web/packages/" target="_blank">CRAN</a> <code>https://cran.r-project.org/web/packages/</code>. Other places to get R packages include <a href="https://github.com/" target="_blank">GitHub</a> <code>https://github.com/</code>; <a href="https://www.bioconductor.org/" target="_blank">Bioconductor</a> <code>https://www.bioconductor.org/</code> or simply getting the ZIP file from the creator/maintainer directly.</p>
 <p>There are a couple of ways to install packages. Using the RStudio menus, click on &quot;Tools/Install Packages&quot;. Usually the default Repository will be CRAN. Here you simply type in the name of the package you want &quot;ggplot2&quot;. Alternatively, you can run the <code>install.packages()</code> function. The command to install <code>ggplot2</code> is</p>
 <pre><code>install.packages(&quot;ggplot2&quot;)
-</code></pre><p>Once a package is installed, it is now located on your hard drive but is not yet ready to be used in R. Now you have to load the package into memory so that the functions inside that package can be used. For this you need the <code>library()</code> function. Let&apos;s load <code>ggplot2</code> and then let&apos;s run help on it to read more about the package.</p>
+</code></pre><p>Once a package is installed, it is now located on your hard drive but is not yet ready to be used in R. Now you have to load the package into memory so that the functions inside that package can be used. For this you need the <code>library()</code> function. Let&apos;s load <code>ggplot2</code> and then run help on it to read more about the package.</p>
 <pre><code class="lang-r">&gt; <span class="hljs-keyword">library</span>(ggplot2)
 &gt; help(package=<span class="hljs-string">&quot;ggplot2&quot;</span>)
 </code></pre>
@@ -506,7 +506,7 @@ sinz &lt;- sin(z)
 +       main = <span class="hljs-string">&apos;Main title&apos;</span>)
 </code></pre>
 <p><img src="figure/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8"> </p>
-<p>Notice the added graphics window at the lower right side of the RStudio interface. There is more functionality for viewing and exporting graphics from this window.</p>
+<p>Notice the added graphics window at the lower right side of the RStudio interface. There is more functionality for viewing and exporting graphics from this window. Take a few moments and explore the &quot;Plots&quot; window in the lower right. Click &quot;Zoom&quot; to view the plot in a larger detached window. Also explore the options under the &quot;Export&quot; menu item within this &quot;Plots&quot; window.</p>
 <h2 id="complete-r-code-script-from-part-2">Complete R code script from Part 2</h2>
 <p>Note that the last command calls <code>sessionInfo()</code> which is a good practice to always do as this lists the current version of R you are running, what platform/operating system you are using as well as all packages loaded.</p>
 <hr>
