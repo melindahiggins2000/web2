@@ -59,7 +59,7 @@
         data-chapter-title="Working in RStudio"
         data-filepath="workshop1/part2.md"
         data-basepath=".."
-        data-revision="Thu Jan 21 2016 17:13:31 GMT-0500 (Eastern Standard Time)"
+        data-revision="Thu Jan 21 2016 21:01:28 GMT-0500 (Eastern Standard Time)"
         data-innerlanguage="">
     
 
@@ -398,22 +398,207 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="example-2">example 2</h1>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" target="_blank">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre><code class="lang-r">&gt; summary(cars)
+                        <h1 id="workshop-1--part-2">Workshop 1 - Part 2</h1>
+<h2 id="working-in-the-rstudio">Working in the RStudio</h2>
+<hr>
+<p>We will go through many of the same steps we did in Part 1, but this time we will run them in RStudio so you can see how the RStudio IDE (integrated development environment) helps mangage your data, code and output much more efficiently. </p>
+<p>In Workshop 3 we will also explore the EXCELLENT RMarkdown functionality built into RStudio combining analysis with documentation and report writing making the entire process seamless and efficient!</p>
+<p>While RStudio has many more windows and menus enabling point-and-click interaction with R codes and functions, it is not the typicaly GUI (graphical user interface) </p>
+<h2 id="launch-rstudio">Launch RStudio</h2>
+<hr>
+<p>Go ahead launch RStudio and we will explore the interface.</p>
+<p>When RStudio opens, your interface may not look the same as mine so we will systematically go through each window and explain what it does.</p>
+<p>If you do not have a script window open, do ahead and create one. Go to File/New File/R Script. This should open a blank window in the upper left corner of the software interface. This is basically a simple text window where we will type our R codes and then execute them rather than typing them in the &quot;console&quot; window (typically located in the bottom left corner).</p>
+<p>In this window let&apos;s put in the commands we ran before in Part 1.</p>
+<pre><code>2 + 2
+3 + (4*8)
+3 + 4*8
+6 + (8**2)
+12^2
+pi
+4 * pi
+</code></pre><p>You will notice that as each command above is &quot;run&quot; (executed) the the command is echo&apos;d in the console window at the bottom left and the output shown in the console as we did before in the Basic R interface.</p>
+<p>Again what if we want to save these values. To do so we have to assign them <code>&lt;-</code> to a variable. So, let&apos;s run through the next set of commands. As you do so, watch the upper right window for the &quot;Global Environment&quot;.</p>
+<pre><code>x &lt;- 3 * 5
+x
+y &lt;- 1:12
+y
+z &lt;- seq(0,10,.5)
+sinz &lt;- sin(z)
+</code></pre><p>You should notice that the variables created above now show up in the top right &quot;Global Envrionment&quot; window. You will notice that the variable <code>x</code> shows the value of 15. However, the other variables <code>y</code>, <code>z</code>, and <code>sinz</code> all show a list of numbers. These are all vectors.</p>
+<p><code>x</code> is a vector of length 1 since it has only 1 element. You can confirm this using the <code>length()</code> function. Try running this function for each of the variables <code>x</code>, <code>y</code>, <code>z</code>, and <code>sinz</code>.</p>
+<pre><code class="lang-r">&gt; length(x)
 </code></pre>
-<pre><code>     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00
-</code></pre><p>You can also embed plots, for example:</p>
-<p><img src="figure/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<pre><code>[1] 1
+</code></pre><pre><code class="lang-r">&gt; length(y)
+</code></pre>
+<pre><code>[1] 12
+</code></pre><pre><code class="lang-r">&gt; length(z)
+</code></pre>
+<pre><code>[1] 21
+</code></pre><pre><code class="lang-r">&gt; length(sinz)
+</code></pre>
+<pre><code>[1] 21
+</code></pre><p>This is only 1 way to learn about the variables you created. You will also notice that in the upper right window that each vector that has more than 1 element the size of the vector is listed inside the brackets <code>[]</code>&apos;s. Each vector is also listed as to the type of vector it is. <code>z</code> and <code>sinz</code> are &quot;numeric&quot; vectors whereas <code>y</code> is an &quot;integer&quot; vector. This can also been seen using the structure function <code>str()</code> and <code>class()</code> function. Try using these and compare the results exploring the structure and class of <code>z</code> and <code>y</code>.</p>
+<pre><code class="lang-r">&gt; str(y)
+</code></pre>
+<pre><code> int [1:12] 1 2 3 4 5 6 7 8 9 10 ...
+</code></pre><pre><code class="lang-r">&gt; class(y)
+</code></pre>
+<pre><code>[1] &quot;integer&quot;
+</code></pre><pre><code class="lang-r">&gt; str(z)
+</code></pre>
+<pre><code> num [1:21] 0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 ...
+</code></pre><pre><code class="lang-r">&gt; class(z)
+</code></pre>
+<pre><code>[1] &quot;numeric&quot;
+</code></pre><p>Another way to create vectors of data is to use the combine function <code>c()</code> which combines elements together. Try the following:</p>
+<pre><code class="lang-r">&gt; a1 &lt;- c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">10</span>,<span class="hljs-number">11</span>,<span class="hljs-number">12</span>,<span class="hljs-number">13</span>)
+&gt; a2 &lt;- c(<span class="hljs-string">&apos;a&apos;</span>,<span class="hljs-string">&apos;g&apos;</span>,<span class="hljs-string">&apos;f&apos;</span>,<span class="hljs-string">&apos;r&apos;</span>,<span class="hljs-string">&apos;t&apos;</span>,<span class="hljs-string">&apos;s&apos;</span>)
+&gt; a3 &lt;- c(<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>)
+&gt; a4 &lt;- c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-string">&apos;a&apos;</span>,<span class="hljs-string">&apos;b&apos;</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>)
+&gt; a5 &lt;- c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>)
+</code></pre>
+<p>Use the <code>class()</code> function and see what type each vector is. What class type is a4? Why? What about a5?</p>
+<pre><code class="lang-r">&gt; class(a1)
+</code></pre>
+<pre><code>[1] &quot;numeric&quot;
+</code></pre><pre><code class="lang-r">&gt; class(a2)
+</code></pre>
+<pre><code>[1] &quot;character&quot;
+</code></pre><pre><code class="lang-r">&gt; class(a3)
+</code></pre>
+<pre><code>[1] &quot;logical&quot;
+</code></pre><pre><code class="lang-r">&gt; class(a4)
+</code></pre>
+<pre><code>[1] &quot;character&quot;
+</code></pre><pre><code class="lang-r">&gt; class(a5)
+</code></pre>
+<pre><code>[1] &quot;numeric&quot;
+</code></pre><p>When types are mixed, R sets them all to the type that will best encompass and retain the values. </p>
+<p>We will cover many more variable types in the later Workshops. However, let&apos;s look at 1 more variable type that is the mainstay of most R data handling and analyses - the Data Frame. One way to create a data frame is to combine vectors of the same size together. We can combine these using the <code>data.frame()</code> function. For this example we will combine the <code>y</code> vector we created with numbers 1 to 12 and combine these with the saved constant vectors of the month names (<code>month.name</code>) and month abbreviations (<code>month.abb</code>).</p>
+<pre><code class="lang-r">&gt; df1 &lt;- data.frame(y, month.name, month.abb)
+</code></pre>
+<p>You will notice that this new object is create and shows up in the upper right window but is now listed as &quot;Data&quot; instead of simply as &quot;Values&quot;. There is also now a little blue circle with an arrow in it next to the object <code>df1</code>. Click this little arrow. This opens up a list of each of the variables now contained inside this data frame. You can also &quot;View&quot; the data in this data frame by clicking on the little table/grid icon to the right of the object listed in the top right window. This basically runs the <code>View(df1)</code> code without you having to type it. In fact, check the console window at the lower left to confirm that this is correct.</p>
+<h2 id="lets-load-a-package-with-added-functionality--ggplot2-aka-the-grammar-of-graphics">Let&apos;s load a package with added functionality - ggplot2, aka &quot;The Grammar of Graphics&quot;</h2>
+<p>What are packages? R packages are how additional functionality is added to R beyond what is available in the base software system. There are 3 main ways to find packages of interest to add functionality. The biggest of the 3 is <a href="https://cran.r-project.org/" target="_blank">CRAN</a> which is the Comprehensive R Archive Network. As of this writing there are over 7000+ packages on <a href="https://cran.r-project.org/web/packages/" target="_blank">CRAN</a>. Other places to get R packages include <a href="https://github.com/" target="_blank">GitHub</a>; <a href="https://www.bioconductor.org/" target="_blank">Bioconductor</a> and simply getting the ZIP file from the creator/maintainer directly.</p>
+<p>There are a couple of ways to install packages. Using the RStudio menus, click on &quot;Tools/Install Packages&quot;. Usually the default Repository will be CRAN. Here you simply type in the name of the package you want &quot;ggplot2&quot;. Alternatively, you can run the <code>install.packages()</code> function. The command to install <code>ggplot2</code> is</p>
+<pre><code>install.packages(&quot;ggplot2&quot;)
+</code></pre><p>Once a package is installed, it is now located on your hard drive but is not yet ready to be used in R. Now you have to load the package into memory so that the functions inside that package can be used. For this you need the <code>library()</code> function. Let&apos;s load <code>ggplot2</code> and then let&apos;s run help on it to read more about the package.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-keyword">library</span>(ggplot2)
+&gt; help(package=<span class="hljs-string">&quot;ggplot2&quot;</span>)
+</code></pre>
+<p>As a quick test, let&apos;s try out the <code>qplot()</code> or &quot;quick plot&quot; function inside the <code>ggplot2</code> package. We&apos;ll use the following code to replicate the plot we did before using the <code>plot()</code> commands in base R.</p>
+<p>Here is the previous plot we did using the base R commands.</p>
+<pre><code class="lang-r">&gt; plot(z, sinz,
++         xlab = <span class="hljs-string">&apos;Z = Sequence 0 to 10 by 0.5&apos;</span>,
++         ylab = <span class="hljs-string">&apos;Sin(Z)&apos;</span>,main=<span class="hljs-string">&apos;Main title&apos;</span>,
++         sub = <span class="hljs-string">&apos;example subtitle&apos;</span>)
+&gt; lines(z, sinz, col = <span class="hljs-string">&apos;blue&apos;</span>)
+&gt; points(z, sinz, pch = <span class="hljs-number">23</span>, col = <span class="hljs-string">&apos;red&apos;</span>, bg = <span class="hljs-string">&apos;black&apos;</span>)
+</code></pre>
+<p><img src="figure/unnamed-chunk-7-1.png" alt="plot of chunk unnamed-chunk-7"> </p>
+<p>Here is a similar plot using <code>qplot</code>. It will not look exactly the same. We will learn more powerful graphing functions using ggplot2 and other packages in the later workshops.</p>
+<pre><code class="lang-r">&gt; qplot(z, sinz,
++       geom = c(<span class="hljs-string">&quot;point&quot;</span>, <span class="hljs-string">&quot;line&quot;</span>),
++       xlab = <span class="hljs-string">&apos;Z = Sequence 0 to 10 by 0.5&apos;</span>,
++       ylab = <span class="hljs-string">&apos;Sin(Z)&apos;</span>,
++       main = <span class="hljs-string">&apos;Main title&apos;</span>)
+</code></pre>
+<p><img src="figure/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8"> </p>
+<p>Notice the added graphics window at the lower right side of the RStudio interface. There is more functionality for viewing and exporting graphics from this window.</p>
+<h2 id="complete-r-code-script-from-part-2">Complete R code script from Part 2</h2>
+<p>Note that the last command calls <code>sessionInfo()</code> which is a good practice to always do as this lists the current version of R you are running, what platform/operating system you are using as well as all packages loaded.</p>
+<hr>
+<pre><code>2 + 2
+3 + (4*8)
+3 + 4*8
+6 + (8**2)
+12^2
+pi
+4 * pi
 
+x &lt;- 3 * 5
+x
+y &lt;- 1:12
+y
+z &lt;- seq(0,10,.5)
+sinz &lt;- sin(z)
+
+length(x)
+length(y)
+length(z)
+length(sinz)
+
+str(y)
+class(y)
+str(z)
+class(z)
+
+a1 &lt;- c(1,2,3,4,10,11,12,13)
+a2 &lt;- c(&apos;a&apos;,&apos;g&apos;,&apos;f&apos;,&apos;r&apos;,&apos;t&apos;,&apos;s&apos;)
+a3 &lt;- c(TRUE,FALSE,TRUE,TRUE,FALSE)
+a4 &lt;- c(1,2,&apos;a&apos;,&apos;b&apos;,TRUE,FALSE)
+a5 &lt;- c(1,2,3,4,TRUE,FALSE)
+
+class(a1)
+class(a2)
+class(a3)
+class(a4)
+class(a5)
+
+df1 &lt;- data.frame(y, month.name, month.abb)
+
+install.packages(&quot;ggplot2&quot;)
+library(ggplot2)
+help(package=&quot;ggplot2&quot;)
+
+plot(z, sinz,
+        xlab = &apos;Z = Sequence 0 to 10 by 0.5&apos;,
+        ylab = &apos;Sin(Z)&apos;,main=&apos;Main title&apos;,
+        sub = &apos;example subtitle&apos;)
+lines(z, sinz, col = &apos;blue&apos;)
+points(z, sinz, pch = 23, col = &apos;red&apos;, bg = &apos;black&apos;)
+
+qplot(z, sinz,
+      geom = c(&quot;point&quot;, &quot;line&quot;),
+      xlab = &apos;Z = Sequence 0 to 10 by 0.5&apos;,
+      ylab = &apos;Sin(Z)&apos;,
+      main = &apos;Main title&apos;)
+
+sessionInfo()
+</code></pre><h2 id="here-is-my-current-sessioninfo-for-workshop-1">Here is my current <strong>SessionInfo</strong> for Workshop 1.</h2>
+<hr>
+<pre><code class="lang-r">&gt; sessionInfo()
+</code></pre>
+<pre><code>R version 3.2.3 (2015-12-10)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows &gt;= 8 x64 (build 9200)
+
+locale:
+[1] LC_COLLATE=English_United States.1252 
+[2] LC_CTYPE=English_United States.1252   
+[3] LC_MONETARY=English_United States.1252
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_2.0.0       knitcitations_1.0.7 Rgitbook_0.9       
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_0.12.2       knitr_1.11        magrittr_1.5     
+ [4] munsell_0.4.2     colorspace_1.2-6  R6_2.1.1         
+ [7] bibtex_0.4.0      stringr_1.0.0     httr_1.0.0       
+[10] plyr_1.8.3        tools_3.2.3       grid_3.2.3       
+[13] gtable_0.1.2      digest_0.6.8      RJSONIO_1.3-0    
+[16] RefManageR_0.8.63 formatR_1.2.1     bitops_1.0-6     
+[19] codetools_0.2-14  RCurl_1.95-4.7    evaluate_0.8     
+[22] labeling_0.3      stringi_1.0-1     scales_0.3.0     
+[25] XML_3.98-1.3      lubridate_1.5.0
+</code></pre>
                     
                     </section>
                 

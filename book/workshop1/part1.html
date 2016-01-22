@@ -59,7 +59,7 @@
         data-chapter-title="Working in Basic R"
         data-filepath="workshop1/part1.md"
         data-basepath=".."
-        data-revision="Thu Jan 21 2016 17:13:31 GMT-0500 (Eastern Standard Time)"
+        data-revision="Thu Jan 21 2016 21:01:28 GMT-0500 (Eastern Standard Time)"
         data-innerlanguage="">
     
 
@@ -399,14 +399,14 @@
                     <section class="normal" id="section-">
                     
                         <h1 id="workshop-1--part-1">Workshop 1 - Part 1</h1>
-<h2 id="working-in-basic-r-environment">Working in Basic R Environment</h2>
+<h2 id="working-in-basic-r">Working in Basic R</h2>
 <hr>
-<p>For this first part, open/run R on your computer. When R opens, you will see 1 main window with 1 smaller window with a cursor <code>&gt;</code> this is where you can type commands and get immediate feedback allowing you to work with R interactively.</p>
+<p>For this first part, open/run the Basic R on your computer. When R opens, you will see 1 main window with 1 smaller window with a cursor <code>&gt;</code> this is where you can type commands and get immediate feedback allowing you to work with R interactively.</p>
 <h2 id="find-out-which-directory-r-thinks-is-your-home-directory">Find out which directory R thinks is your home directory</h2>
 <hr>
-<p>Type <code>getwd()</code> at the prompt <code>&gt;</code></p>
+<p>Type <code>getwd()</code> at the prompt <code>&gt;</code> which is short for &quot;get working directory&quot;</p>
 <p>C:/MyGithub/A_Series_of_R_Workshops/workshop1</p>
-<p>Let&apos;s change this to a directory on your computer that already exists. As an example on my computer I already created a directory for these workshops at <code>C:\MyR\2016_Spring_RWorkshops</code>. However, for this to work in R I have to flip the <code>\</code> backslashes to the <code>/</code> forward slashes. So, at the prompt to change my working directory I would type:</p>
+<p>Let&apos;s change this to a directory on your computer that already exists. So, go ahead and create a directory on your computer where you want to save your files and work. As an example on my computer I already created a directory for these workshops at <code>C:\MyR\2016_Spring_RWorkshops</code>. However, for this to work in R I have to flip the <code>\</code> backslashes to the <code>/</code> forward slashes. So, at the prompt to change my working directory I would type:</p>
 <p><code>setwd(&quot;C:/MyR/2016_Spring_RWorkshops&quot;)</code></p>
 <p>NOTE: On a Mac this should be <code>setwd(&quot;/MyR/2016_Spring_RWorkshops&quot;)</code>.</p>
 <p>Next, double check to see that the working directory changed. Run <code>getwd()</code> again.</p>
@@ -522,6 +522,7 @@
 <p>Once the plot is created, in the graphics Window, right click and either copy as either metafile or bitmap or Save as metafile or postscript. Metafile is the Windows Vector graphics format which is scalable and portable. The bitmap format will not scale as well. Many journals prefer postscript.</p>
 <p>To finish Part 1 - close/exit the R program. BEFORE you close R, you can save your Workspace (xxx.RData) and save your History (xxx.Rhistory). The Workspace saves all of the variables and data you created. The History file saves every command you typed during your R session - this is similar to a SAS log file and the running SYNTAX saved to the SPSS output file and log. SPSS also has a Journal file which also saves commands you&apos;ve entered during each session.</p>
 <h2 id="complete-r-code-script-from-part-1">Complete R code script from Part 1</h2>
+<hr>
 <pre><code># ====================================
 # Workshop 1
 # Part 1 - R Script
