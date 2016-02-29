@@ -5,9 +5,17 @@ title: teaching
 
 # Teaching Materials and Lectures
 
-## R Workshops
+## Workshops on R, RStudio, GIT and Github
 
 <hr/>
+
+<p>How to get started with GIT an Github
+</p>
+
+<p>
+ <a class="redbutton" href="{{ site.url }}/teaching/CDCslidesMar2016">GIT & Github</a>
+</p>
+
 <p>
 The following R Workshops will be offered in the Spring 2016 at Emory University School of Nursing. These workshops will be an introduction to R software and the RStudio interface. Each workshop will be hands-on for 2 hours each. 
 </p>
