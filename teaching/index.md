@@ -10,12 +10,12 @@ title: teaching
 <hr/>
 
 <p>
- <a class="redbutton" href="{{ site.url }}/teaching/CDCslidesMar2016">GIT & Github</a> 
+ <a class="redbutton" href="{{ site.url }}/teaching/CDCslidesMar2016" target="_blank">GIT & Github</a> 
 <br>Slides on How to get started with GIT an Github
 </p>
 
 <p>
- <a class="redbutton" href="https://www.gitbook.com/book/melindahiggins2000/a-series-of-r-workshops/details">Gitbook</a>
+ <a class="redbutton" href="https://www.gitbook.com/book/melindahiggins2000/a-series-of-r-workshops/details" target="_blank">Gitbook</a>
 <br>Online book of the materials compiled for the "Series of R Workshops" held Spring 2016 at Emory University - School of Nursing. This workshop series will have 4 workshops - each 2 hours long with a focus on hands-on learning using R and RStudio. These workshops are introductory and provide skills necessary to begin to be comfortable working with R and RStudio performing data analysis and writing research reports
 </p>
 
@@ -24,7 +24,7 @@ title: teaching
 ## Research Roundtables
 
 <hr/>
-<a href="{{ site.url }}/teaching/RR"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
+<a href="{{ site.url }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
 <p>
  Link To Research Roundtable Lectures &nbsp;&nbsp;
 </p>
