@@ -1,0 +1,32 @@
+ Volume in drive C has no label.
+ Volume Serial Number is AC7D-A6A5
+
+ Directory of C:\MyR\CDCdata_workshops2016\slides
+
+02/28/2016  07:58 AM    <DIR>          .
+02/28/2016  07:58 AM    <DIR>          ..
+02/28/2016  07:15 AM           289,547 changesMerged.PNG
+02/28/2016  06:54 AM            93,910 CloneFilesOnLocal.PNG
+02/28/2016  06:46 AM           146,180 CloneRepository.PNG
+02/28/2016  06:47 AM           206,433 CloneRepository02.PNG
+02/28/2016  06:48 AM           119,270 CloneRepository03.PNG
+02/28/2016  06:49 AM           209,646 CloneRepository04.PNG
+02/28/2016  07:12 AM           282,218 compareForkToOrig.PNG
+02/28/2016  07:58 AM                 0 dir.txt
+02/28/2016  06:58 AM           760,051 FindingRepsoitoryToCopy.PNG
+02/28/2016  07:04 AM           193,936 fork01.PNG
+02/28/2016  07:04 AM           248,745 fork02.PNG
+02/28/2016  07:06 AM           268,320 fork03.PNG
+02/28/2016  07:06 AM           359,298 fork04.PNG
+02/28/2016  06:34 AM           525,506 GithubHome.PNG
+02/28/2016  07:55 AM         1,129,588 IOslidesTest1.html
+02/28/2016  07:55 AM               926 IOslidesTest1.Rmd
+02/28/2016  06:43 AM           197,346 MyNewRepository.PNG
+02/28/2016  06:44 AM           232,158 MyNewRepository_initial.PNG
+02/28/2016  07:14 AM           278,268 pullRequestOK.PNG
+02/28/2016  06:38 AM           294,336 setup01.PNG
+02/28/2016  06:39 AM           411,060 setup02.PNG
+02/28/2016  06:51 AM           225,882 SHAcode.PNG
+02/28/2016  06:52 AM           332,352 SHAinGithub.PNG
+              23 File(s)      6,804,976 bytes
+               2 Dir(s)  72,837,603,328 bytes free
