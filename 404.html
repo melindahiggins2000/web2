@@ -17,7 +17,7 @@ For some unknown/awkward/pathetic reasons the page you are looking for does not 
     {% for post in site.posts offset: 0 limit: 5 %}
 
         <small>
-            <a href="{{ post.url}}">{{ post.title }}</a>
+            <a href="{{ site.url }}">{{ post.title }}</a>
         </small>
         <br />
 
