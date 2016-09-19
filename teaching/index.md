@@ -17,7 +17,7 @@ Slides on How to get started with GIT an Github
 </p>
 
 <p>
- <a class="redbutton" href="https://www.gitbook.com/book/melindahiggins2000/a-series-of-r-workshops/details" target="_blank">Gitbook</a>
+ <a class="redbutton" href="https://www.gitbook.com/book/melindahiggins2000/a-series-of-r-workshops/details" target="_blank">Spring 2016 R Workshops "Book"</a>
 </p>
 <p>
 Online book of the materials compiled for the "Series of R Workshops" held Spring 2016 at Emory University - School of Nursing. This workshop series will have 4 workshops - each 2 hours long with a focus on hands-on learning using R and RStudio. These workshops are introductory and provide skills necessary to begin to be comfortable working with R and RStudio performing data analysis and writing research reports
@@ -25,13 +25,11 @@ Online book of the materials compiled for the "Series of R Workshops" held Sprin
 
 <hr/>
 
+<a href="{{ site.url }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
+
 ## Research Roundtables
 
 <hr/>
-<a href="{{ site.url }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
-<p>
- Link To Research Roundtable Lectures &nbsp;&nbsp;
-</p>
 <p>
  <a class="redbutton" href="{{ site.url }}/teaching/RR">Research Roundtables Archived</a>
 </p>
