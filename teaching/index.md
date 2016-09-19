@@ -27,12 +27,28 @@ Online book of the materials compiled for the "Series of R Workshops" held Sprin
 
 <a href="{{ site.url }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
 
-## Research Roundtables
+## Archived Materials
 
 <hr/>
 <p>
  <a class="redbutton" href="{{ site.url }}/teaching/RR">Research Roundtables Archived</a>
 </p>
+
+Research Rountables provided during 2007 - 2013 on topics including: 
+
+* Multicollinearity 
+* Sources of Variance
+* Intro to Longitudinal Models
+* Data Screening
+* Building Regression Models
+* Moderation and Mediation
+* Power
+* Multilevel Mixed Models
+* Categorical Data
+* Structural Equation Modeling
+* More Longitudinal Models
+* Demystification of Statistical Terms
+
 <hr/>
 
 
