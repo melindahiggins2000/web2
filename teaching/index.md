@@ -20,7 +20,7 @@ Materials for R Workshop 01 - Fall 2016
  <a class="redbutton" href="{{ site.url }}/teaching/CDCslidesMar2016" target="_blank">GIT & Github</a> 
 </p>
 <p>
-Slides on How to get started with GIT an Github
+Slides on How to get started with GIT and Github
 </p>
 
 <p>
