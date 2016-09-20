@@ -10,6 +10,13 @@ title: teaching
 <hr/>
 
 <p>
+ <a class="redbutton" href="{{ site.url }}/teaching/RWorkshopsFall2016/WS01sdy.html" target="_blank">R Workshop 01 - Fall 2016</a> 
+</p>
+<p>
+Introduction Slides - R Workshop 01 - Fall 2016
+</p>
+
+<p>
  <a class="redbutton" href="{{ site.url }}/teaching/CDCslidesMar2016" target="_blank">GIT & Github</a> 
 </p>
 <p>
