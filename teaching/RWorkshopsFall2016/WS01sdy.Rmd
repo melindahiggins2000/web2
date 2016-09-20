@@ -1,0 +1,67 @@
+---
+title: "R Workshop 01 - What is Reproducible Research and Dynamic Documentation?"
+author: |
+    | "Melinda Higgins, PhD"
+    | " Chemometrician/Biostatistician"
+date: "Friday, September 23, 2016"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Reproducible Research
+
+- In 1994, Jon Claerbout was one of the first scientists to emphasize that computational methods threaten the reproducibility of research unless open access is provided to both the data and the software underlying a publication.
+- Scientific Errors and Misconduct ["An Array of Errors" - The Economist 2011](http://www.economist.com/node/21528593)
+- Open Science movement [Center for Open Science](https://cos.io/) and [Open Science Framework](https://osf.io/)
+- Becoming the norm - the [_Biostatistics_](http://www.oxfordjournals.org/our_journals/biosts/for_authors/index.html) journal now marks every article as to the extent they are **"reproducible"**
+
+> Reproducible Research
+
+> Our reproducible research policy is for papers in the journal to be kite-marked D if the data on which they are based are freely available, C if the authors’ code is freely available, and R if both data and code are available, and our Associate Editor for Reproducibility is able to use these to reproduce the results in the paper. Data and code are published electronically on the journal’s website as Supplementary Materials.
+
+- Victoria Stodden's definitions of [types of reproducibility](http://ropensci.github.io/reproducibility-guide/sections/introduction/)
+
+## Dynamic Documentation
+
+- ["Literate Programming"](http://www.literateprogramming.com/) coined by Donald Knuth in 1984.
+
+> "Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do."
+
+- A document that is _"dynamic"_ is created using current data + code + text
+- This presentation is an **`R Markdown`** presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+- This presentation is "dynamic" and was created by clicking the **Knit** button.
+- The terms most often used are **`sweave`** and **`knit`** [Sweave by Friedrich Leisch](https://www.statistik.lmu.de/~leisch/Sweave/) and [`knitr` by Yihui Xie](http://yihui.name/knitr/)
+- We will focus on **`knitr`** in these R Workshops.
+- NO MORE CUT AND PASTE EVER [Video](https://t.co/O8ehDNY7T0)
+
+## Version Control and Collaboration
+
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- Track all versions - changes and updates
+- Easy to "roll back" 
+- Easy to collaborate with multiple team members
+- Crowdsourcing & SPEED ["Open-Source Genomic Analysis of Shiga-Toxin–Producing E. coli O104:H4"](http://www.nejm.org/doi/full/10.1056/NEJMoa1107643?viewType=Print&)
+
+> "We released these data into the public domain under a Creative Commons 0 license, which elicited a burst of crowd-sourced, curiosity-driven analyses carried out by bioinformaticians on four continents. Twenty-four hours after the release of the genome, it had been assembled; 2 days after its dissemination, it had been assigned to an existing sequence type. Five days after the release of the sequence data, we had designed and released strain-specific diagnostic primer sequences, and within a week, two dozen reports had been filed on an open-source wiki (a Web site that facilitates collaborative effort) dedicated to analysis of the strain."
+
+- the [Github Wiki](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki) listed above
+
+
+## Example R Code with Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## R code with Output Plot
+
+```{r pressure, echo=TRUE}
+plot(pressure)
+```
+
