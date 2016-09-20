@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\nlayout: page\ntitle: teaching\n---\n\n## R Workshop 01 Fall 2016\n\n* [Introductory Slides]({{ site.url }}/teaching/RWorkshopsFall2016/WS01sdy.html) \n* aaaaa\n\n",
+    "contents" : "---\nlayout: page\ntitle: teaching\n---\n\n## R Workshop 01 Fall 2016\n\n* [Introductory Slides]({{ site.url }}/teaching/RWorkshopsFall2016/WS01sdy.html) \n* more materials and links to be added here\n\n",
     "created" : 1474398998827.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "747922128",
+    "hash" : "4255671238",
     "id" : "46B43798",
-    "lastKnownWriteTime" : 1474399255,
-    "last_content_update" : 1474399255871,
+    "lastKnownWriteTime" : 1474399406,
+    "last_content_update" : 1474399406396,
     "path" : "C:/MyGithub/web2/teaching/RWorkshopsFall2016/index.md",
     "project_path" : "teaching/RWorkshopsFall2016/index.md",
     "properties" : {
