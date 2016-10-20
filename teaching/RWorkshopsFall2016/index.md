@@ -6,10 +6,10 @@ title: teaching
 ## R Workshop 01 Fall 2016
 
 * Workshop Held 23 September 2016
-    + > @Emory University
-    + > School of Nursing
-    + > Room 276
-    + > 10:00-11:50
+    + Emory University <br>
+      School of Nursing <br>
+      Room 276 <br>
+      10:00-11:50
 * [Introductory Slides]({{ site.url }}/teaching/RWorkshopsFall2016/WS01sdy.html) 
 * Goals for Fall 2016 R Workshop 01
     + At the end of this workshop, each participant will get experience using R & RStudio with the rmarkdown and knitr packages
