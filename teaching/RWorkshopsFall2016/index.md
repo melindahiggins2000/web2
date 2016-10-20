@@ -14,7 +14,7 @@ title: teaching
 * Goals for Fall 2016 R Workshop 01
     + At the end of this workshop, each participant will get experience using R & RStudio with the rmarkdown and knitr packages
     + At the end of this workshop, each participant will have created a report from raw data plus simple analysis plus documentation output in HTML, PDF (optional) and DOC formats
-* [YouTube Recording of Lecture](https://www.youtube.com/playlist?list=PLUDpSUA5mvSwWh_0o5UDb_u8iLDZ4Nfq7)
+* [Recording of Lecture @YouTube](https://www.youtube.com/playlist?list=PLUDpSUA5mvSwWh_0o5UDb_u8iLDZ4Nfq7)
 
 ## R Workshop 02 Fall 2016
 
