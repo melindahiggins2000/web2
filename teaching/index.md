@@ -10,10 +10,10 @@ title: teaching
 <hr/>
 
 <p>
- <a class="redbutton" href="{{ site.url }}/teaching/RWorkshopsFall2016" target="_blank">R Workshop 01 - Fall 2016</a> 
+ <a class="redbutton" href="{{ site.url }}/teaching/RWorkshopsFall2016" target="_blank">R Workshops - Fall 2016</a> 
 </p>
 <p>
-Materials for R Workshop 01 - Fall 2016
+Materials for the three R Workshops given Fall 2016
 </p>
 
 <p>
