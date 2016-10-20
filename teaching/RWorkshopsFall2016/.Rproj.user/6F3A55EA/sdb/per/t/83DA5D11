@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Untitled\"\nauthor: \"Melinda Higgins\"\ndate: \"September 22, 2016\"\noutput:\n  pdf_document: default\n  html_document: default\n  word_document: default\nparams:\n  begin: 1\n  end: 91\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n## R Markdown\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n```{r cars}\nsummary(cars)\n```\n\n## Including Plots\n\nYou can also embed plots, for example:\n\n```{r pressure, echo=FALSE}\nplot(pressure)\n```\n\nNote that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.\n\n## create some data and look at it\n\n```{r echo=FALSE}\nx <- seq(1,10,0.1)\ny <- sin(x)\nnumx <- length(x)\n```\n\nWe have created a vector of data x and also create y as the sin(x). The length of these 2 vectors is `r numx`.\n\n## plot of x and y\n\n```{r fig.cap=\"My First Figure\"}\nplot(x,y)\n```\n\n## plot only from begin [`r params$begin`] to end [`r params$end`]\n\n```{r}\na <- params$begin\nb <- params$end\nplot(x[a:b],y[a:b])\n```\n\n",
+    "created" : 1474590819391.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "403467119",
+    "id" : "83DA5D11",
+    "lastKnownWriteTime" : 1474593507,
+    "last_content_update" : 1474593507830,
+    "path" : "C:/MyGithub/web2/teaching/RWorkshopsFall2016/test1.Rmd",
+    "project_path" : "test1.Rmd",
+    "properties" : {
+        "last_setup_crc32" : "8173B208bb338d19",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
