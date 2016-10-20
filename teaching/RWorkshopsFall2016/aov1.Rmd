@@ -3,9 +3,9 @@ title: "Analysis of Variance Report 1"
 author: "Melinda Higgins"
 date: "October 21, 2016"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ## R Exercises - One-Way Analysis of Variance
@@ -34,22 +34,38 @@ The data is available at [http://lib.stat.cmu.edu/DASL/Datafiles/CancerSurvival.
 
 Since this dataset is a CSV (comma-delimited) formatted file, we can use the r function `read.csv()` to read in the dataset. This function returns a `data.frame` which we "assign" to the object `cancer.survival`.
 
-```{r}
+Notice that the R chunk below is labeled "loaddata". This will be apparent when we "knit" the final document. You'll notice that there is a "chunk option" `eval=FALSE` indicating that this code will be shown in the document but the code is NOT executed yet.
+
+```{r loaddata, eval=FALSE}
+cancer.survival <- read.csv("cancer-survival.csv", header = TRUE)
+```
+
+This next code chunk is the same as above, but this time we have added a "chunk option" for the chunk to not be "echo'd" in the output, i.e. the R code will NOT be shown in the final document. To learn more about R chunk options see Yihui Xie's website at [http://yihui.name/knitr/options/](http://yihui.name/knitr/options/). Yihui Xie's book, "Dynamic Documents with R and knitr, Second Edition (Chapman & Hall/CRC The R Series) 2nd Edition", is also very helpful in understanding how to customize and manipulate output using `knitr`. It is available at Amazon at [https://www.amazon.com/dp/1498716962/ref=cm_sw_su_dp](https://www.amazon.com/dp/1498716962/ref=cm_sw_su_dp).
+
+```{r loaddata2, echo=FALSE}
 cancer.survival <- read.csv("cancer-survival.csv", header = TRUE)
 ```
 
 ## Look at data
 
-Let's "look" at the data. We can use the `head()` function to look at the top 5-6 rows of the dataset.
+Let's "look" at the data. We can use the `head()` function to look at the top 6 rows of the dataset or the `tail()` function to look at the bottom 6 rows of the dataset.
 
 ```{r}
 head(cancer.survival)
+tail(cancer.survival)
 ```
 
-We can clean up the looks for this output by using the `kable()` function from the `knitr` package to put the output into a table.
+We can clean up the looks of this output by using the `kable()` function from the `knitr` package to put the output into a table. Notice that the `kable()` function in the `knitr` package is called directly using the format `package::function()`.
 
 ```{r}
 knitr::kable(head(cancer.survival))
+```
+
+Here is the code again with a title/caption for the table. see `help(kable)`.
+
+```{r}
+knitr::kable(head(cancer.survival),
+             caption = "Table of the Top 6 Rows of Data")
 ```
 
 We can also look at the "structure" of the data using the `str()` function.
@@ -142,10 +158,14 @@ hist(cancer.survival$Survival,
 
 We can also do this using the pipe command `%>%` and we'll add include the title we used above. This time let's add a Figure caption using a chunk option `fig.cap`. Learn more about `knitr` chunk options at [http://yihui.name/knitr/options/](http://yihui.name/knitr/options/).
 
+NOTE: The `fig.cap` chunk option does show up in all outputs HTML, PDF and DOCX, but how these captions are displayed does vary.
+
 ```{r fig.cap="Figure: Histogram of Survival Times"}
 cancer.survival$Survival %>%
   hist(main="Histogram of Survival Times")
 ```
+
+NOTE: In general, you may want to use the title and caption options within the table or plotting functions instead of using the chunk options. Although the chunk options can help automate captioning in larger documents - see Yihui Xie's "Dynamic Documents" book for complete information.
 
 ## Make side-by-side boxplots of survival times by organ
 
@@ -163,4 +183,44 @@ ggplot(cancer.survival,
                size=4) + 
   ggtitle("Survival time of patients affected by different cancers")
 ```
+
+## Final Items to Do - Take Home Exercises
+
+1. Go back and make sure that every R Code chunk has a label and make sure that every label is different. Try naming 2 chunks the same and see the error that is produced.
+2. Go back and set the option `echo=FALSE` in all of your R code chunks so that all of your R code is hidden in the final document.
+3. There are places in the above document where the same code was essentially run multiple times but with slightly different options. Find the duplicate chunks and set the evaluation option to false so the R code is not run `eval=FALSE`.
+4. Add a Table of Contents for the HTML formatted output by editing the YAML header above. Change from 
+
+```
+output:
+  html_document: default
+```
+
+to
+
+```
+output:
+  html_document:
+    toc: true
+```
+
+And, if time, try adding an option to float the table of contents:
+
+```
+output:
+  html_document:
+    toc: true
+    toc_float: true
+```
+
+5. If you're feeling daring - try adding a theme to your HTML output - edit the YAML header as shown below. Read more about customizing HTML output at [http://rmarkdown.rstudio.com/html_document_format.html](http://rmarkdown.rstudio.com/html_document_format.html). See the bootswatch themes at [http://bootswatch.com/](http://bootswatch.com/). NOTE: Not all of the bootswatch themes can be used - see `help(html_document)` for all of the details.
+
+```
+output:
+  html_document:
+    toc: true
+    theme: "united"
+```
+
+
 

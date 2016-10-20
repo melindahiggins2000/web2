@@ -87,7 +87,7 @@ sd(cancer.survival$Survival)
 #' try help for mean using ?mean or help(mean)
 #' try ??standard
 
-#' ===== EXERCISE 1 =====
+#' ===== EXERCISE =====
 #' use the help menus to see if you can figure out
 #' how to find the median and the minimum and 
 #' maximum values for the Days of Survival
@@ -95,6 +95,12 @@ sd(cancer.survival$Survival)
 
 
 
+
+
+#' ===== ANSWER =====
+median(cancer.survival$Survival)
+min(cancer.survival$Survival)
+max(cancer.survival$Survival)
 
 
 #' another useful function for finding summary
@@ -235,3 +241,27 @@ ggplot(cancer.survival,
   ggtitle("Survival time of patients affected by different cancers")
 
 #' This is the code we'll add for our Rmarkdown file.
+
+#' ===== EXERCISE =====
+#' see ggplot2 cheatsheet
+#' https://www.rstudio.com/wp-content/uploads/2015/12/ggplot2-cheatsheet-2.0.pdf
+#' try the plot code above but use
+#' geom_violin() instead of geom_boxplot()
+#' and remove the stat_summary() argument
+
+
+
+
+
+
+
+
+#' ===== ANSWER =====
+
+ggplot(cancer.survival,
+       aes(x = Organ,y=Survival, color = Organ)) +
+  geom_violin() + 
+  ggtitle("Survival time of patients affected by different cancers")
+
+
+
