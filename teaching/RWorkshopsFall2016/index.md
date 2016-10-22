@@ -32,6 +32,7 @@ title: teaching
         + R Script _(aov1.R)_ 
         + Cancer Survival Data File _(cancer-survival.csv)_
         + R Markdown File _(aov1.Rmd)_
+* ALTERNATIVELY you can download the repository for this workshop from my Github account at [https://github.com/melindahiggins2000/Fall2016_RWorkshop2](https://github.com/melindahiggins2000/Fall2016_RWorkshop2) - click on the green button at the top right to "Clone or Download" and choose "Download Zip"
 * YouTube Recording of Lecture - _link will be added once workshop is complete and video is compiled_
 
 ## R Workshop 03 Fall 2016
