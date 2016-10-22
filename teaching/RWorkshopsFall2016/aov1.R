@@ -18,7 +18,7 @@
 #' computer.
 
 getwd()
-setwd("C:/MyGithub/web2/teaching/RWorkshopsFall2016")
+setwd("C:/rworkshop2a")
 cancer.survival <- read.csv("cancer-survival.csv", 
                             header = TRUE)
 

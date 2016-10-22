@@ -3,9 +3,9 @@ title: "Analysis of Variance Report 1"
 author: "Melinda Higgins"
 date: "October 21, 2016"
 output:
-  html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ## R Exercises - One-Way Analysis of Variance
