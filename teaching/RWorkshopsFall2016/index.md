@@ -26,10 +26,12 @@ title: teaching
 * Goals for Fall 2016 R Workshop 02
     + At the end of this workshop, each participant will have learned more about markdown formatting for tailoring the look and feel (style) of their final documents
     + At the end of this workshop, each participant will have learned about customizing their r-code chunks to manipulate what is displayed in the final report including captioning and other custom options settings.
-* Files needed _[Right Click and Choose "SaveAs" to save to your local computer for the workshop]_
-    + [R Script]({{ site.url }}/teaching/RWorkshopsFall2016/aov1.R) 
-    + [Cancer Survival Data File]({{ site.url }}/teaching/RWorkshopsFall2016/cancer-survival.csv)
-    + [R Markdown File]({{ site.url }}/teaching/RWorkshopsFall2016/aov1.Rmd)
+* 3 Files needed - put into 1 compressed "zipped" file: _[Right Click and Choose "SaveAs" to save to your local computer for the workshop]_
+    + [aov1files.zip]({{ site.url }}/teaching/RWorkshopsFall2016/aov1files.zip)
+    + Unzip this compressed file to get the 3 main files needed for this workshop:
+        + R Script _(aov1.R)_ 
+        + Cancer Survival Data File _(cancer-survival.csv)_
+        + R Markdown File _(aov1.Rmd)_
 * YouTube Recording of Lecture - _link will be added once workshop is complete and video is compiled_
 
 ## R Workshop 03 Fall 2016
