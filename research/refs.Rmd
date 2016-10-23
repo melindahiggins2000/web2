@@ -1,0 +1,119 @@
+---
+title: "refs1"
+author: "Melinda Higgins"
+date: "October 22, 2016"
+output:
+  html_document:
+    keep_md: true
+bibliography: bibtex20161022.bib
+---
+
+```{r echo=FALSE, message=FALSE}
+library("knitcitations")
+cleanbib()
+options("citation_format" = "pandoc")
+```
+
+Here are the refs 
+
+* @cook2016randomizednewborns  
+* @dunbar2016familyfunctioning  
+* @ferranti2015implementationepidemic  
+* @bruner2016benchmarkingmet
+* @greenblatt2016exploringgirls
+* @holstad2015dowomen
+* @routledge2015insomniafunction
+* @holstad2016psychosocialhiv
+* @mccabe2015antecedentsdefects
+* @dunbar2015characteristicsdiabetes
+* @reilly2015andiabetes
+* @wittig-wells2015impactsurgery
+* @dunbar2015randomizedoutcomes
+* @wittig-wells2015doesarthroplasty
+* @george2015abath
+* @stamp2016familyfailure
+* @reilly2015singlerestriction
+* @desaulniers2015self-reportedcancer
+* @wittig-wells2015thearthroplasty
+* @hayat2015statisticalconsensus
+* @dalton2015painpredictors
+* @moore2015antagonismenvironment
+* @anderson2015changesdependence
+* @shapiro2014statisticsnurses
+* @butts2014caregiverfailure
+* @hayat2014statisticalconsensus
+* @reilly2014costdiabetes
+* @dunbar2014anfunctioning
+* @reilly2015isolatingstudy
+* @thomas2016youngchoices
+* @hayat2014understandingregression
+* @dunbar2014adiabetes
+* @thomas2014parentalinterventions
+* @stamp2014familyfailure
+* @kally2014thecaregivers
+* @appiagyei2014informingproduction
+* @marin2014feedingoxygenation
+* @stamp2014familyfailure
+* @jennings2013turningtransfers
+* @dunbar2013afailure
+* @holstad2013theself-management
+* @zellner2013effectsload
+* @desaulniers2013clinicalcancer
+* @dalton2015painpredictors
+* @reilly2013assessmentdiuretics
+* @hayat2013teachingconsensus
+* @ferranti2013psychosocialpopulation
+* @thomas2013anvaccination
+* @marin2013redinvestigation
+* @wilson2013socialmonkeys
+* @frediani2013qualitypopulation
+* @wittig-wells2013patientsarthroplasty
+* @thomas2013parentalscreening
+* @dunbar2014adiabetes
+* @thomas2012ruralvaccination
+* @grossniklaus2012dietaryobesity
+* @cress2012clinicallyfailure
+* @holstad2012motivationalstudy
+* @cha2012educationaldiabetes
+* @gary2012astudy
+* @gary2012improvedpatients
+* @michopoulos2012socialmonkeys
+* @berg2012sleeptrial
+* @shields2012disabilitypatients
+* @grabbe2012spiritualitypilot
+* @reilly2011outcomesfailure
+* @stevens2011perceivedcoping
+* @villar2011markersmonkeys
+* @gary2011combinedfailure
+* @gross2011thekenya
+* @quinn2011improvingstudy
+* @grossniklaus2010dietaryobesity
+* @robertson2010thetraining
+* @grossniklaus2010biobehavioralrisk
+* @grossniklaus2010psychologicaladults
+* @berg2010sleepingicd
+* @dunbar2010familyfunctioning
+* @grossniklaus2010depressiveobesity
+* @gary2010combinedfailure
+* @fitzpatrick2010thechildren
+* @quinn2010heartproxy
+* @quinn2009recognitionsymptoms
+* @gary2009combinedfailure
+* @reilly2009developmenttest
+* @dunbar2009familycommunication
+* @quinn2009symptomvisits
+* @dunbar2009hffactors
+* @gary2008usepatients
+* @quinn2008familycaregivers
+* @quinn2008heartcongruence
+* @walthall2006detectionsensing
+* @haran2004handheldapplications
+* @higgins1994differentiationmass-spectrometry
+* @aust1994fourier-transformreaction
+* @denny1990chromatographytroubleshooting
+* @mccoy2015agewomen
+
+
+
+# References
+
