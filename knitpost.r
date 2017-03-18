@@ -1,3 +1,6 @@
+# NOTE: My RSS ATOM feed is at
+# http://melindahiggins2000.github.io/web2/feed.xml
+
 # knitpost
 # see initial idea from
 # https://www.r-bloggers.com/blog-with-knitr-and-jekyll/
