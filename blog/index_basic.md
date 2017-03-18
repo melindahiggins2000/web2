@@ -1,6 +1,7 @@
 ---
 title: Blog
-url: https://melindahiggins2000.github.io/web2/
+url: http://melindahiggins2000.github.io
+baseurl: /web2
 layout: page
 ---
 
