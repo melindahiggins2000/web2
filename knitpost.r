@@ -4,7 +4,8 @@ library(knitr)
 
 KnitPost <- function(input, base.url = "/") {
   opts_knit$set(base.url = base.url)
-  fig.path <- paste0("figs/", sub(".Rmd$", "", basename(input)), "/")
+  fig.path <- paste0("{{ site.url }}{{ site.baseurl }}/figs/", 
+                     sub(".Rmd$", "", basename(input)), "/")
   opts_chunk$set(fig.path = fig.path)
   opts_chunk$set(fig.cap = "center")
   render_jekyll()
@@ -23,7 +24,8 @@ file <- '2017-03-18-newpost.Rmd'
 runfile <- paste0('cd rmd && copy ',file,' .. && cd ..')
 shell(runfile)
 KnitPost(file)
-shell('move *.md _posts')
+movefile <- paste0("move ",sub(".Rmd$", "", basename(file)),".md _posts")
+shell(movefile)
 shell(paste0('del ',file))
 
 
