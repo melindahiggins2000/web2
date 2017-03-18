@@ -21,7 +21,7 @@ This post describes how to:
 
 In order to submit data requests to Twitter, you need a developer account. Go to [Twitter Developers](https://dev.twitter.com/), aka. Fabric.
 
-![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png)
+![center]({{ site.url }}{{ site.baseurl }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png)
 
 * Click "More"" and "Get Started with Fabric"
 * Fill out your name and email to request an account
@@ -218,7 +218,7 @@ Finally, generate the wordcloud for all of the extracted content from these 1499
 wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
 {% endhighlight %}
 
-![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing_sm.png)
+![center]({{ site.url }}{{ site.baseurl }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing_sm.png)
 
 ***
 

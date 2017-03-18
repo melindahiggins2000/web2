@@ -92,7 +92,7 @@ par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 {% endhighlight %}
 
-![center]({{ site.url }}/figs/2012-07-03-knitr-jekyll/fig1-1.png) 
+![center]({{ site.url }}{{ site.baseurl }}/figs/2012-07-03-knitr-jekyll/fig1-1.png) 
 
 ##### Figure 1-1: Caption
 
@@ -102,7 +102,7 @@ par(mar = c(2.5, 2.5, 0.5, 0.1), omi = c(0, 0, 0, 0))
 filled.contour(volcano)
 {% endhighlight %}
 
-![center]({{ site.url }}/figs/2012-07-03-knitr-jekyll/fig2-1.png) 
+![center]({{ site.url }}{{ site.baseurl }}/figs/2012-07-03-knitr-jekyll/fig2-1.png) 
 
 ##### Figure 2-1: Caption
 

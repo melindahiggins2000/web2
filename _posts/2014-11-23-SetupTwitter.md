@@ -21,4 +21,4 @@ I just setup my Twitter account. You can follow me at [@mhiggins2000](https://tw
 
 ### My Twitter homepage
 
-![center]({{ site.url }}/images/blog/twitterHome.png)
+![center]({{ site.url }}{{ site.baseurl }}/images/blog/twitterHome.png)

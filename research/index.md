@@ -11,7 +11,7 @@ title: Research
 ## Publications to Date
 
 <p>
- <a class="redbutton" href="{{ site.url }}/research/refs.html" target="_blank">Publications to Date</a> 
+ <a class="redbutton" href="{{ site.url }}{{ site.baseurl }}/research/refs.html" target="_blank">Publications to Date</a> 
 </p>
 <p>
 Publications to Date
@@ -29,12 +29,12 @@ Publications to Date
 
 <hr/>
 
-<a href="{{ site.url }}/research/lectureseries"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
+<a href="{{ site.url }}{{ site.baseurl }}/research/lectureseries"><img class="centered" src="{{ site.url }}{{ site.baseurl }}/images/website/sky01.jpg"/></a>
 <p>
  example of a set of slides from a lecture series. &nbsp;&nbsp;
 </p>
 <p>
- <a class="redbutton" href="{{ site.url }}/research/lectureseries">Read More</a>
+ <a class="redbutton" href="{{ site.url }}{{ site.baseurl }}/research/lectureseries">Read More</a>
 </p>
 <hr/>
 

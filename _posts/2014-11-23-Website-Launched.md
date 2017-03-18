@@ -15,7 +15,7 @@ My initial website was created at [github.com](http://github.com) as a user page
 
 Be sure to create a username you like since this will be your base name for all of your repositories and websites created here.
 
-![center]({{ site.url }}/images/blog/githubStart.png)
+![center]({{ site.url }}{{ site.baseurl }}/images/blog/githubStart.png)
 
 ## Next, finalize your profile and create your first repository
 
