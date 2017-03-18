@@ -23,7 +23,7 @@ Publications to Date
 * ["Statistical Views: Where Can I Find Stats Help?"](http://issuu.com/jcmills/docs/onr_newsletter_july2014) Emory-SON-Newsletter, Volume 2, Issue 3, July 2014, page 4 
 * ["Working to Fulfill the Vision for Symptom Science: Emory School of Nursing's Common Data Elements and Data Repository"](http://issuu.com/jcmills/docs/onr_newsletter_november2014) Emory-SON-Newsletter, Volume 3, Issue 1, November 2014, pages 3-4 
 
-<a href="http://issuu.com/jcmills/"><img class="centered" src="{{ site.url }}/images/website/EmoryNursingONR_Vol3Issue1sm.png"/></a>
+<a href="http://issuu.com/jcmills/"><img class="centered" src="{{ site.url }}{{ site.baseurl }}/images/website/EmoryNursingONR_Vol3Issue1sm.png"/></a>
 
 #### Some of my projects and such...
 
