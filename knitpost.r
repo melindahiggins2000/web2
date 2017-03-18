@@ -2,9 +2,9 @@
 
 library(knitr)
 
-KnitPost <- function(input, base.url = "/") {
+KnitPost <- function(input, base.url = "{{ site.url }}{{ site.baseurl }}/") {
   opts_knit$set(base.url = base.url)
-  fig.path <- paste0("{{ site.url }}{{ site.baseurl }}/figs/", 
+  fig.path <- paste0("figs/", 
                      sub(".Rmd$", "", basename(input)), "/")
   opts_chunk$set(fig.path = fig.path)
   opts_chunk$set(fig.cap = "center")
