@@ -80,7 +80,7 @@ I designed and developed this site using:
 * [R](http://cran.r-project.org/); 
 * with the `knitr` [R package](http://cran.r-project.org/web/packages/knitr/index.html);
 * following reproducible research principles by [Yihui Xie](http://yihui.name/) and [Christopher Gandrud](http://christophergandrud.github.io/RepResR-RStudio/);
-* following this [styleguide]({{ site.url }}/styleguide) developed by [Gaston Sanchez](http://gastonsanchez.com/). 
+* following this [styleguide]({{ site.url }}{{ site.baseurl }}/styleguide) developed by [Gaston Sanchez](http://gastonsanchez.com/). 
  
 This site is hosted by [github pages](https://pages.github.com) and version controlled via [Github for Windows client](https://windows.github.com/). 
 
