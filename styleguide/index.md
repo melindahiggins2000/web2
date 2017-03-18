@@ -121,14 +121,14 @@ form of filtering</blockquote>
 
 <div id="block">
 	<div class="wide-image">
-		<img class="full" src="{{ site.url }}/images/website/sky01.jpg" alt="full-wide" />
+		<img class="full" src="{{ site.url }}{{ site.baseurl }}/images/website/sky01.jpg" alt="full-wide" />
 	</div>
 	<div class="prose">
 		<p><code>centered</code> images occupy just a partial space of the screen width. 
 		They are used to show a visual element like a photo, screenshot, chart, or plot.
 		</p>
 		<p>
-		<img class="centered" src="{{ site.url }}/images/website/sky01.jpg" alt="centered" />
+		<img class="centered" src="{{ site.url }}{{ site.baseurl }}/images/website/sky01.jpg" alt="centered" />
 		</p>
 	</div>
 </div>
@@ -150,15 +150,15 @@ form of filtering</blockquote>
 <div id="block">
 	<div class="column1of3"> 
 		<p>Columna 1</p>
-		<img src="{{ site.url }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
+		<img src="{{ site.url }}{{ site.baseurl }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
 	</div>
 	<div class="column2of3"> 
 		<p>Columna 2</p>
-		<img src="{{ site.url }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
+		<img src="{{ site.url }}{{ site.baseurl }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
 	</div>
 	<div class="column3of3"> 
 		<p>Columna 3</p>
-		<img src="{{ site.url }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
+		<img src="{{ site.url }}{{ site.baseurl }}/images/website/EmoryNursingONR_Vol2Issue3sm.png" />
 	</div>
 </div>
 
