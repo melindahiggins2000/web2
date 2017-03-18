@@ -2,6 +2,7 @@ author: Melinda Higgins, Ph.D.
 description: My website and blog
 permalink: /blog/:categories/:year/:month/:day/:title.html
 url: https://melindahiggins2000.github.io/web2
+site.url: https://melindahiggins2000.github.io/web2
 gems: [jekyll-feed]
 exclude: ["Rmd", ".DS_Store", "README.md"]
 excerpt_separator: <!--more-->
