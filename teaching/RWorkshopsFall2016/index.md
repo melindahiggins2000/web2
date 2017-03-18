@@ -5,12 +5,12 @@ title: teaching
 
 ## R Workshop 01 Fall 2016
 
-* Workshop Held 23 September 2016 [Announcement Flyer]({{ site.url }}/teaching/RWorkshopsFall2016/RWorkshop01_Fall2016.pdf)
+* Workshop Held 23 September 2016 [Announcement Flyer]({{ site.url }}{{ site.baseurl }}/teaching/RWorkshopsFall2016/RWorkshop01_Fall2016.pdf)
     + Emory University <br>
       School of Nursing <br>
       Room 276 <br>
       10:00-11:50
-* [Introductory Slides]({{ site.url }}/teaching/RWorkshopsFall2016/WS01sdy.html) 
+* [Introductory Slides]({{ site.url }}{{ site.baseurl }}/teaching/RWorkshopsFall2016/WS01sdy.html) 
 * Goals for Fall 2016 R Workshop 01
     + At the end of this workshop, each participant will get experience using R & RStudio with the rmarkdown and knitr packages
     + At the end of this workshop, each participant will have created a report from raw data plus simple analysis plus documentation output in HTML, PDF (optional) and DOC formats
@@ -18,7 +18,7 @@ title: teaching
 
 ## R Workshop 02 Fall 2016
 
-* Workshop Held 21 October 2016 [Announcement Flyer]({{ site.url }}/teaching/RWorkshopsFall2016/RWorkshop02_Fall2016.pdf)
+* Workshop Held 21 October 2016 [Announcement Flyer]({{ site.url }}{{ site.baseurl }}/teaching/RWorkshopsFall2016/RWorkshop02_Fall2016.pdf)
     + Emory University <br>
       School of Nursing <br>
       Room 276 <br>
@@ -27,7 +27,7 @@ title: teaching
     + At the end of this workshop, each participant will have learned more about markdown formatting for tailoring the look and feel (style) of their final documents
     + At the end of this workshop, each participant will have learned about customizing their r-code chunks to manipulate what is displayed in the final report including captioning and other custom options settings.
 * 3 Files needed - put into 1 compressed "zipped" file: _[Right Click and Choose "SaveAs" to save to your local computer for the workshop]_
-    + [aov1files.zip]({{ site.url }}/teaching/RWorkshopsFall2016/aov1files.zip)
+    + [aov1files.zip]({{ site.url }}{{ site.baseurl }}/teaching/RWorkshopsFall2016/aov1files.zip)
     + Unzip this compressed file to get the 3 main files needed for this workshop:
         + R Script _(aov1.R)_ 
         + Cancer Survival Data File _(cancer-survival.csv)_
@@ -37,7 +37,7 @@ title: teaching
 
 ## R Workshop 03 Fall 2016
 
-* Workshop Held 18 November 2016 [Announcement Flyer]({{ site.url }}/teaching/RWorkshopsFall2016/RWorkshop03_Fall2016.pdf)
+* Workshop Held 18 November 2016 [Announcement Flyer]({{ site.url }}{{ site.baseurl }}/teaching/RWorkshopsFall2016/RWorkshop03_Fall2016.pdf)
     + Emory University <br>
       School of Nursing <br>
       Room 276 <br>

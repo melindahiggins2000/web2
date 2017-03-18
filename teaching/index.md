@@ -20,7 +20,7 @@ SPRING 2017 - This course teaches Big Data Analytics with applications in health
 </p>
 
 <p>
- <a class="redbutton" href="{{ site.url }}/teaching/" target="_blank">N736 Quantitative Analysis of Clinical Research Data</a> 
+ <a class="redbutton" href="{{ site.url }}{{ site.baseurl }}/teaching/" target="_blank">N736 Quantitative Analysis of Clinical Research Data</a> 
 </p>
 **Instructor: Melinda Higgins, PhD.**
 <p>
@@ -32,14 +32,14 @@ FALL 2017 - This course builds on the required statistical sequence (i.e. comple
 ## Workshops on R, RStudio, GIT and Github
 
 <p>
- <a class="redbutton" href="{{ site.url }}/teaching/RWorkshopsFall2016" target="_blank">R Workshops - Fall 2016</a> 
+ <a class="redbutton" href="{{ site.url }}{{ site.baseurl }}/teaching/RWorkshopsFall2016" target="_blank">R Workshops - Fall 2016</a> 
 </p>
 <p>
 Materials for the three R Workshops given Fall 2016
 </p>
 
 <p>
- <a class="redbutton" href="{{ site.url }}/teaching/CDCslidesMar2016" target="_blank">GIT & Github</a> 
+ <a class="redbutton" href="{{ site.url }}{{ site.baseurl }}/teaching/CDCslidesMar2016" target="_blank">GIT & Github</a> 
 </p>
 <p>
 Slides on How to get started with GIT and Github
@@ -54,14 +54,14 @@ Online book of the materials compiled for the "Series of R Workshops" held Sprin
 
 <hr/>
 
-<a href="{{ site.url }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
+<a href="{{ site.url }}{{ site.baseurl }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
 
 <hr/>
 
 ## Archived Materials
 
 <p>
- <a class="redbutton" href="{{ site.url }}/teaching/RR">Research Roundtables Archived</a>
+ <a class="redbutton" href="{{ site.url }}{{ site.baseurl }}/teaching/RR">Research Roundtables Archived</a>
 </p>
 
 Research Rountables provided during 2007 - 2013 on topics including: 
