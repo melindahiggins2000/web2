@@ -1,0 +1,35 @@
+---
+layout : post
+title : Learning ggplot2
+date : 2017-03-18
+category : R
+tags : [R]
+image : arches01.jpg
+---
+
+Here is a short example intro to `ggplot2`. For this we'll work with the `mtcars` dataset.
+
+```{r}
+knitr::kable(head(mtcars),
+             caption = "Top Rows of mtcars dataset")
+```
+
+<!--more-->
+
+## Summary of mtcars
+
+```{r}
+library(dplyr)
+m <- mtcars %>%
+  select(mpg, cyl, hp)
+summary(m)
+```
+
+## scatterplot
+
+```{r}
+library(ggplot2)
+m %>% ggplot(aes(mpg,hp, colour=as.factor(cyl))) +
+  geom_point()
+```
+

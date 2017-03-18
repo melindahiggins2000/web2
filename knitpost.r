@@ -36,5 +36,10 @@ movefile <- paste0("move ",sub(".Rmd$", "", basename(file)),".md _posts")
 shell(movefile)
 shell(paste0('del ',file))
 
-
-
+file <- '2017-03-18-introsimpleggplot2.Rmd'
+runfile <- paste0('cd rmd && copy ',file,' .. && cd ..')
+shell(runfile)
+KnitPost(file)
+movefile <- paste0("move ",sub(".Rmd$", "", basename(file)),".md _posts")
+shell(movefile)
+shell(paste0('del ',file))
