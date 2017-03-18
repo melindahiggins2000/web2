@@ -13,7 +13,7 @@ title: teaching
 * [Data Screening]({{ site.url }}{{ site.baseurl }}/teaching/RR/2008-09-25_ResearchRoundtableDataScreening.ppt)
 * [Building Regression Models]({{ site.url }}{{ site.baseurl }}/teaching/RR/2008-11-14_ResearchRoundtableBuildRegressionModel.ppt)
 * [Moderation and Mediation]({{ site.url }}{{ site.baseurl }}/teaching/RR/2008-11-21_ModeratorMediators.ppt)
-* [Power]({{ site.url }}/teaching/RR/2013-01-30_HigginsLecture_Power.ppt)
+* [Power]({{ site.url }}{{ site.baseurl }}/teaching/RR/2013-01-30_HigginsLecture_Power.ppt)
 * [Multilevel Mixed Models]({{ site.url }}{{ site.baseurl }}/teaching/RR/2009-03-30_MixedMultilevelModels.ppt)
 * [Categorical Data]({{ site.url }}{{ site.baseurl }}/teaching/RR/2009-04-09_CategoricalData.ppt)
 * [Structural Equation Modeling]({{ site.url }}{{ site.baseurl }}/teaching/RR/2009-04-13_SEMResearchRoundtable.pptx)

@@ -54,7 +54,7 @@ Online book of the materials compiled for the "Series of R Workshops" held Sprin
 
 <hr/>
 
-<a href="{{ site.url }}{{ site.baseurl }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}/images/website/sky01.jpg"/></a>
+<a href="{{ site.url }}{{ site.baseurl }}/teaching/RR" target="_blank"><img class="centered" src="{{ site.url }}{{ site.baseurl }}/images/website/sky01.jpg"/></a>
 
 <hr/>
 
